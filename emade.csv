@@ -1,0 +1,527 @@
+,elapsed_time,age,evaluation_year,tree,FullDataSet False Positives,FullDataSet False Negatives,FullDataSet Num Elements,id,optimization,generation
+0,5.60359,1.0,0,"myPlanckTaper(AdaBoostLearner(myGaussian(ARG0, 100.0, 1), ModifyLearnerInt(learnerType('Bayes', None), falseBool, 5), passTriState(1), myIntToFloat(9)), passFloat(myFloatAdd(100.0, 0.1)), passTriState(passTriState(0)))",18.8,19.0,35.0,1,0,0
+1,115.825,1.0,0,"BaggedLearner(ARG0, learnerType('Blup', None))",16.0,36.4,27.0,2,0,0
+2,5.53096,1.0,0,"AdaBoostLearner(ARG0, learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), 2, 0.01)",16.2,21.8,44.0,3,0,0
+3,5.60359,1.0,0,"myPlanckTaper(AdaBoostLearner(myGaussian(ARG0, 100.0, 1), ModifyLearnerInt(learnerType('Bayes', None), falseBool, 5), passTriState(1), myIntToFloat(9)), passFloat(myFloatAdd(100.0, 0.1)), passTriState(passTriState(0)))",18.8,19.0,35.0,4,0,1
+4,5.48483,1.0,0,"AdaBoostLearner(myProd(ARG0, 0), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",0.0,68.4,29.0,5,0,1
+5,115.825,1.0,0,"BaggedLearner(ARG0, learnerType('Blup', None))",16.0,36.4,27.0,6,0,1
+6,118.701,1.0,0,"AdaBoostLearner(ARG0, learnerType('Bayes', None), 2, 1.0)",103.6,7.4,41.0,7,0,1
+7,5.53096,1.0,0,"AdaBoostLearner(ARG0, learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), 2, 0.01)",16.2,21.8,44.0,8,0,1
+8,5.60359,1.0,0,"myPlanckTaper(AdaBoostLearner(myGaussian(ARG0, 100.0, 1), ModifyLearnerInt(learnerType('Bayes', None), falseBool, 5), passTriState(1), myIntToFloat(9)), passFloat(myFloatAdd(100.0, 0.1)), passTriState(passTriState(0)))",18.8,19.0,35.0,9,0,2
+9,5.48483,1.0,0,"AdaBoostLearner(myProd(ARG0, 0), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",0.0,68.4,29.0,10,0,2
+10,115.825,1.0,0,"BaggedLearner(ARG0, learnerType('Blup', None))",16.0,36.4,27.0,11,0,2
+11,118.701,1.0,0,"AdaBoostLearner(ARG0, learnerType('Bayes', None), 2, 1.0)",103.6,7.4,41.0,12,0,2
+12,5.53096,1.0,0,"AdaBoostLearner(ARG0, learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), 2, 0.01)",16.2,21.8,44.0,13,0,2
+13,5.36031,1.0,3,"myPlanckTaper(AdaBoostLearner(myGaussian(ARG0, 100.0, 0), ModifyLearnerInt(learnerType('Bayes', None), falseBool, 5), passTriState(1), myIntToFloat(9)), passFloat(myFloatAdd(100.0, 0.1)), passTriState(1))",18.8,19.0,31.0,14,1,0
+14,5.48483,1.0,0,"AdaBoostLearner(myProd(ARG0, 0), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",0.0,68.4,29.0,15,1,0
+15,118.701,1.0,0,"AdaBoostLearner(ARG0, learnerType('Bayes', None), 2, 1.0)",103.6,7.4,41.0,16,1,0
+16,211.687,1.0,2,"AdaBoostLearner(ARG0, learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), myIntAdd(255, 2), 0.01)",16.2,21.8,44.0,17,1,0
+17,5.56848,1.0,0,"AdaBoostLearner(myProd(ARG0, 2), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",10.6,47.8,30.0,18,1,0
+18,5.36031,1.0,3,"myPlanckTaper(AdaBoostLearner(myGaussian(ARG0, 100.0, 0), ModifyLearnerInt(learnerType('Bayes', None), falseBool, 5), passTriState(1), myIntToFloat(9)), passFloat(myFloatAdd(100.0, 0.1)), passTriState(1))",18.8,19.0,31.0,19,1,1
+19,5.48483,1.0,0,"AdaBoostLearner(myProd(ARG0, 0), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",0.0,68.4,29.0,20,1,1
+20,115.825,1.0,0,"BaggedLearner(ARG0, learnerType('Blup', None))",16.0,36.4,27.0,21,1,1
+21,118.701,1.0,0,"AdaBoostLearner(ARG0, learnerType('Bayes', None), 2, 1.0)",103.6,7.4,41.0,22,1,1
+22,211.687,1.0,2,"AdaBoostLearner(ARG0, learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), myIntAdd(255, 2), 0.01)",16.2,21.8,44.0,23,1,1
+23,5.56848,1.0,0,"AdaBoostLearner(myProd(ARG0, 2), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",10.6,47.8,30.0,24,1,1
+24,5.36031,1.0,3,"myPlanckTaper(AdaBoostLearner(myGaussian(ARG0, 100.0, 0), ModifyLearnerInt(learnerType('Bayes', None), falseBool, 5), passTriState(1), myIntToFloat(9)), passFloat(myFloatAdd(100.0, 0.1)), passTriState(1))",18.8,19.0,31.0,25,1,2
+25,5.37576,1.0,2,"AdaBoostLearner(ARG0, learnerType('LogR', {'penalty': 0, 'C': 1.0}), myIntSub(255, 2), 1.0)",16.6,21.4,51.0,26,1,2
+26,5.48483,1.0,0,"AdaBoostLearner(myProd(ARG0, 0), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",0.0,68.4,29.0,27,1,2
+27,115.825,1.0,0,"BaggedLearner(ARG0, learnerType('Blup', None))",16.0,36.4,27.0,28,1,2
+28,118.701,1.0,0,"AdaBoostLearner(ARG0, learnerType('Bayes', None), 2, 1.0)",103.6,7.4,41.0,29,1,2
+29,5.38298,1.0,2,"AdaBoostLearner(myGaussian(ARG0, 100.0, 0), learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), 2, 0.01)",16.2,21.8,42.0,30,1,2
+30,5.56848,1.0,0,"AdaBoostLearner(myProd(ARG0, 2), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",10.6,47.8,30.0,31,1,2
+31,5.36031,1.0,3,"myPlanckTaper(AdaBoostLearner(myGaussian(ARG0, 100.0, 0), ModifyLearnerInt(learnerType('Bayes', None), falseBool, 5), passTriState(1), myIntToFloat(9)), passFloat(myFloatAdd(100.0, 0.1)), passTriState(1))",18.8,19.0,31.0,32,1,3
+32,5.37576,1.0,2,"AdaBoostLearner(ARG0, learnerType('LogR', {'penalty': 0, 'C': 1.0}), myIntSub(255, 2), 1.0)",16.6,21.4,51.0,33,1,3
+33,5.48483,1.0,0,"AdaBoostLearner(myProd(ARG0, 0), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",0.0,68.4,29.0,34,1,3
+34,115.825,1.0,0,"BaggedLearner(ARG0, learnerType('Blup', None))",16.0,36.4,27.0,35,1,3
+35,118.701,1.0,0,"AdaBoostLearner(ARG0, learnerType('Bayes', None), 2, 1.0)",103.6,7.4,41.0,36,1,3
+36,5.38298,1.0,2,"AdaBoostLearner(myGaussian(ARG0, 100.0, 0), learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), 2, 0.01)",16.2,21.8,42.0,37,1,3
+37,5.56848,1.0,0,"AdaBoostLearner(myProd(ARG0, 2), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",10.6,47.8,30.0,38,1,3
+38,127.198,1.0,0,"AdaBoostLearner(myArcTangentMath(ARG0, 0), ModifyLearnerList(learnerType('Trees', {'criterion': 0, 'splitter': 0}), [1, -1]), 5, myFloatDiv(100.0, 10.0))",15.4,26.0,25.0,39,1,4
+39,5.36031,1.0,3,"myPlanckTaper(AdaBoostLearner(myGaussian(ARG0, 100.0, 0), ModifyLearnerInt(learnerType('Bayes', None), falseBool, 5), passTriState(1), myIntToFloat(9)), passFloat(myFloatAdd(100.0, 0.1)), passTriState(1))",18.8,19.0,31.0,40,1,4
+40,5.43978,1.0,4,"AdaBoostLearner(ARG0, learnerType('LogR', {'penalty': 0, 'C': 1.0}), passInt(myIntSub(255, 2)), 1.0)",16.6,21.4,50.0,41,1,4
+41,5.48483,1.0,0,"AdaBoostLearner(myProd(ARG0, 0), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",0.0,68.4,29.0,42,1,4
+42,115.825,1.0,0,"BaggedLearner(ARG0, learnerType('Blup', None))",16.0,36.4,27.0,43,1,4
+43,118.701,1.0,0,"AdaBoostLearner(ARG0, learnerType('Bayes', None), 2, 1.0)",103.6,7.4,41.0,44,1,4
+44,5.38298,1.0,2,"AdaBoostLearner(myGaussian(ARG0, 100.0, 0), learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), 2, 0.01)",16.2,21.8,42.0,45,1,4
+45,5.46386,1.0,3,"myPlanckTaper(AdaBoostLearner(myGaussian(ARG0, 100.0, 1), ModifyLearnerInt(learnerType('SVM', {'C': 1.0, 'kernel': 0}), falseBool, 5), passTriState(2), myIntToFloat(9)), myIntToFloat(64), passTriState(passTriState(0)))",104.4,13.8,33.0,46,1,4
+46,5.49698,1.0,2,"AdaBoostLearner(ARG0, ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",10.6,47.8,35.0,47,1,4
+47,5.56848,1.0,0,"AdaBoostLearner(myProd(ARG0, 2), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",10.6,47.8,30.0,48,1,4
+48,127.198,1.0,0,"AdaBoostLearner(myArcTangentMath(ARG0, 0), ModifyLearnerList(learnerType('Trees', {'criterion': 0, 'splitter': 0}), [1, -1]), 5, myFloatDiv(100.0, 10.0))",15.4,26.0,25.0,49,1,5
+49,5.36031,1.0,3,"myPlanckTaper(AdaBoostLearner(myGaussian(ARG0, 100.0, 0), ModifyLearnerInt(learnerType('Bayes', None), falseBool, 5), passTriState(1), myIntToFloat(9)), passFloat(myFloatAdd(100.0, 0.1)), passTriState(1))",18.8,19.0,31.0,50,1,5
+50,5.43978,1.0,4,"AdaBoostLearner(ARG0, learnerType('LogR', {'penalty': 0, 'C': 1.0}), passInt(myIntSub(255, 2)), 1.0)",16.6,21.4,50.0,51,1,5
+51,5.50171,1.0,5,"SingleLearner(ARG0, learnerType('Trees', {'criterion': 0, 'splitter': 0}))",20.2,20.2,28.0,52,1,5
+52,5.48483,1.0,0,"AdaBoostLearner(myProd(ARG0, 0), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",0.0,68.4,29.0,53,1,5
+53,115.825,1.0,0,"BaggedLearner(ARG0, learnerType('Blup', None))",16.0,36.4,27.0,54,1,5
+54,118.701,1.0,0,"AdaBoostLearner(ARG0, learnerType('Bayes', None), 2, 1.0)",103.6,7.4,41.0,55,1,5
+55,5.38298,1.0,2,"AdaBoostLearner(myGaussian(ARG0, 100.0, 0), learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), 2, 0.01)",16.2,21.8,42.0,56,1,5
+56,5.46386,1.0,3,"myPlanckTaper(AdaBoostLearner(myGaussian(ARG0, 100.0, 1), ModifyLearnerInt(learnerType('SVM', {'C': 1.0, 'kernel': 0}), falseBool, 5), passTriState(2), myIntToFloat(9)), myIntToFloat(64), passTriState(passTriState(0)))",104.4,13.8,33.0,57,1,5
+57,5.49698,1.0,2,"AdaBoostLearner(ARG0, ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",10.6,47.8,35.0,58,1,5
+58,5.47368,1.0,4,"AdaBoostLearner(myProd(ARG0, 2), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), 1, myFloatDiv(0.1, 0.1))",11.4,47.6,41.0,59,1,5
+59,5.56848,1.0,0,"AdaBoostLearner(myProd(ARG0, 2), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",10.6,47.8,30.0,60,1,5
+60,127.198,1.0,0,"AdaBoostLearner(myArcTangentMath(ARG0, 0), ModifyLearnerList(learnerType('Trees', {'criterion': 0, 'splitter': 0}), [1, -1]), 5, myFloatDiv(100.0, 10.0))",15.4,26.0,25.0,61,1,6
+61,5.36031,1.0,3,"myPlanckTaper(AdaBoostLearner(myGaussian(ARG0, 100.0, 0), ModifyLearnerInt(learnerType('Bayes', None), falseBool, 5), passTriState(1), myIntToFloat(9)), passFloat(myFloatAdd(100.0, 0.1)), passTriState(1))",18.8,19.0,31.0,62,1,6
+62,5.51192,1.0,0,"BaggedLearner(ARG0, learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}))",15.4,20.6,26.0,63,1,6
+63,101.663,1.0,0,"AdaBoostLearner(ARG0, learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), myIntSub(255, 2), 1.0)",16.8,17.4,49.0,64,1,6
+64,5.50171,1.0,5,"SingleLearner(ARG0, learnerType('Trees', {'criterion': 0, 'splitter': 0}))",20.2,20.2,28.0,65,1,6
+65,5.48483,1.0,0,"AdaBoostLearner(myProd(ARG0, 0), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",0.0,68.4,29.0,66,1,6
+66,118.701,1.0,0,"AdaBoostLearner(ARG0, learnerType('Bayes', None), 2, 1.0)",103.6,7.4,41.0,67,1,6
+67,5.46386,1.0,3,"myPlanckTaper(AdaBoostLearner(myGaussian(ARG0, 100.0, 1), ModifyLearnerInt(learnerType('SVM', {'C': 1.0, 'kernel': 0}), falseBool, 5), passTriState(2), myIntToFloat(9)), myIntToFloat(64), passTriState(passTriState(0)))",104.4,13.8,33.0,68,1,6
+68,5.49698,1.0,2,"AdaBoostLearner(ARG0, ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",10.6,47.8,35.0,69,1,6
+69,5.47368,1.0,4,"AdaBoostLearner(myProd(ARG0, 2), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), 1, myFloatDiv(0.1, 0.1))",11.4,47.6,41.0,70,1,6
+70,5.56848,1.0,0,"AdaBoostLearner(myProd(ARG0, 2), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",10.6,47.8,30.0,71,1,6
+71,127.198,1.0,0,"AdaBoostLearner(myArcTangentMath(ARG0, 0), ModifyLearnerList(learnerType('Trees', {'criterion': 0, 'splitter': 0}), [1, -1]), 5, myFloatDiv(100.0, 10.0))",15.4,26.0,25.0,72,1,7
+72,5.51192,1.0,0,"BaggedLearner(ARG0, learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}))",15.4,20.6,26.0,73,1,7
+73,101.663,1.0,0,"AdaBoostLearner(ARG0, learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), myIntSub(255, 2), 1.0)",16.8,17.4,49.0,74,1,7
+74,5.50171,1.0,5,"SingleLearner(ARG0, learnerType('Trees', {'criterion': 0, 'splitter': 0}))",20.2,20.2,28.0,75,1,7
+75,5.48483,1.0,0,"AdaBoostLearner(myProd(ARG0, 0), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",0.0,68.4,29.0,76,1,7
+76,118.701,1.0,0,"AdaBoostLearner(ARG0, learnerType('Bayes', None), 2, 1.0)",103.6,7.4,41.0,77,1,7
+77,5.42438,1.0,6,"SingleLearner(ARG0, learnerType('Bayes', None))",18.8,19.0,30.0,78,1,7
+78,5.46386,1.0,3,"myPlanckTaper(AdaBoostLearner(myGaussian(ARG0, 100.0, 1), ModifyLearnerInt(learnerType('SVM', {'C': 1.0, 'kernel': 0}), falseBool, 5), passTriState(2), myIntToFloat(9)), myIntToFloat(64), passTriState(passTriState(0)))",104.4,13.8,33.0,79,1,7
+79,5.49698,1.0,2,"AdaBoostLearner(ARG0, ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",10.6,47.8,35.0,80,1,7
+80,118.984,1.0,0,"AdaBoostLearner(ARG0, learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), myIntAdd(255, 2), 0.01)",12.2,19.4,46.0,81,1,7
+81,5.47368,1.0,4,"AdaBoostLearner(myProd(ARG0, 2), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), 1, myFloatDiv(0.1, 0.1))",11.4,47.6,41.0,82,1,7
+82,5.56848,1.0,0,"AdaBoostLearner(myProd(ARG0, 2), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",10.6,47.8,30.0,83,1,7
+83,127.198,1.0,0,"AdaBoostLearner(myArcTangentMath(ARG0, 0), ModifyLearnerList(learnerType('Trees', {'criterion': 0, 'splitter': 0}), [1, -1]), 5, myFloatDiv(100.0, 10.0))",15.4,26.0,25.0,84,1,8
+84,5.51192,1.0,0,"BaggedLearner(ARG0, learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}))",15.4,20.6,26.0,85,1,8
+85,101.663,1.0,0,"AdaBoostLearner(ARG0, learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), myIntSub(255, 2), 1.0)",16.8,17.4,49.0,86,1,8
+86,5.50171,1.0,5,"SingleLearner(ARG0, learnerType('Trees', {'criterion': 0, 'splitter': 0}))",20.2,20.2,28.0,87,1,8
+87,5.48483,1.0,0,"AdaBoostLearner(myProd(ARG0, 0), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",0.0,68.4,29.0,88,1,8
+88,118.701,1.0,0,"AdaBoostLearner(ARG0, learnerType('Bayes', None), 2, 1.0)",103.6,7.4,41.0,89,1,8
+89,5.42438,1.0,6,"SingleLearner(ARG0, learnerType('Bayes', None))",18.8,19.0,30.0,90,1,8
+90,5.49194,1.0,8,"AdaBoostLearner(ARG0, learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), 2, 0.01)",11.6,21.4,43.0,91,1,8
+91,5.46386,1.0,3,"myPlanckTaper(AdaBoostLearner(myGaussian(ARG0, 100.0, 1), ModifyLearnerInt(learnerType('SVM', {'C': 1.0, 'kernel': 0}), falseBool, 5), passTriState(2), myIntToFloat(9)), myIntToFloat(64), passTriState(passTriState(0)))",104.4,13.8,33.0,92,1,8
+92,5.53458,1.0,0,"AdaBoostLearner(myProd(ARG0, 1), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",10.6,47.8,29.0,93,1,8
+93,118.984,1.0,0,"AdaBoostLearner(ARG0, learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), myIntAdd(255, 2), 0.01)",12.2,19.4,46.0,94,1,8
+94,5.47368,1.0,4,"AdaBoostLearner(myProd(ARG0, 2), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), 1, myFloatDiv(0.1, 0.1))",11.4,47.6,41.0,95,1,8
+95,5.56848,1.0,0,"AdaBoostLearner(myProd(ARG0, 2), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",10.6,47.8,30.0,96,1,8
+96,127.198,1.0,0,"AdaBoostLearner(myArcTangentMath(ARG0, 0), ModifyLearnerList(learnerType('Trees', {'criterion': 0, 'splitter': 0}), [1, -1]), 5, myFloatDiv(100.0, 10.0))",15.4,26.0,25.0,97,1,9
+97,5.51192,1.0,0,"BaggedLearner(ARG0, learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}))",15.4,20.6,26.0,98,1,9
+98,101.663,1.0,0,"AdaBoostLearner(ARG0, learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), myIntSub(255, 2), 1.0)",16.8,17.4,49.0,99,1,9
+99,5.50171,1.0,5,"SingleLearner(ARG0, learnerType('Trees', {'criterion': 0, 'splitter': 0}))",20.2,20.2,28.0,100,1,9
+100,5.48483,1.0,0,"AdaBoostLearner(myProd(ARG0, 0), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",0.0,68.4,29.0,101,1,9
+101,118.701,1.0,0,"AdaBoostLearner(ARG0, learnerType('Bayes', None), 2, 1.0)",103.6,7.4,41.0,102,1,9
+102,5.42438,1.0,6,"SingleLearner(ARG0, learnerType('Bayes', None))",18.8,19.0,30.0,103,1,9
+103,5.49194,1.0,8,"AdaBoostLearner(ARG0, learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), 2, 0.01)",11.6,21.4,43.0,104,1,9
+104,5.46386,1.0,3,"myPlanckTaper(AdaBoostLearner(myGaussian(ARG0, 100.0, 1), ModifyLearnerInt(learnerType('SVM', {'C': 1.0, 'kernel': 0}), falseBool, 5), passTriState(2), myIntToFloat(9)), myIntToFloat(64), passTriState(passTriState(0)))",104.4,13.8,33.0,105,1,9
+105,5.53458,1.0,0,"AdaBoostLearner(myProd(ARG0, 1), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",10.6,47.8,29.0,106,1,9
+106,118.984,1.0,0,"AdaBoostLearner(ARG0, learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), myIntAdd(255, 2), 0.01)",12.2,19.4,46.0,107,1,9
+107,5.47368,1.0,4,"AdaBoostLearner(myProd(ARG0, 2), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), 1, myFloatDiv(0.1, 0.1))",11.4,47.6,41.0,108,1,9
+108,5.56848,1.0,0,"AdaBoostLearner(myProd(ARG0, 2), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",10.6,47.8,30.0,109,1,9
+109,5.487,1.0,9,"AdaBoostLearner(ARG0, learnerType('LogR', {'penalty': 0, 'C': 1.0}), 1, 0.01)",6.6,48.4,43.0,110,1,9
+110,127.198,1.0,0,"AdaBoostLearner(myArcTangentMath(ARG0, 0), ModifyLearnerList(learnerType('Trees', {'criterion': 0, 'splitter': 0}), [1, -1]), 5, myFloatDiv(100.0, 10.0))",15.4,26.0,25.0,111,1,10
+111,5.51192,1.0,0,"BaggedLearner(ARG0, learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}))",15.4,20.6,26.0,112,1,10
+112,101.663,1.0,0,"AdaBoostLearner(ARG0, learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), myIntSub(255, 2), 1.0)",16.8,17.4,49.0,113,1,10
+113,5.50171,1.0,5,"SingleLearner(ARG0, learnerType('Trees', {'criterion': 0, 'splitter': 0}))",20.2,20.2,28.0,114,1,10
+114,5.45473,1.0,0,"AdaBoostLearner(myProd(ARG0, 1), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), ifThenFloat(trueBool, 100.0))",0.4,67.4,31.0,115,1,10
+115,5.48483,1.0,0,"AdaBoostLearner(myProd(ARG0, 0), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",0.0,68.4,29.0,116,1,10
+116,118.701,1.0,0,"AdaBoostLearner(ARG0, learnerType('Bayes', None), 2, 1.0)",103.6,7.4,41.0,117,1,10
+117,5.42438,1.0,6,"SingleLearner(ARG0, learnerType('Bayes', None))",18.8,19.0,30.0,118,1,10
+118,5.49194,1.0,8,"AdaBoostLearner(ARG0, learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), 2, 0.01)",11.6,21.4,43.0,119,1,10
+119,5.46386,1.0,3,"myPlanckTaper(AdaBoostLearner(myGaussian(ARG0, 100.0, 1), ModifyLearnerInt(learnerType('SVM', {'C': 1.0, 'kernel': 0}), falseBool, 5), passTriState(2), myIntToFloat(9)), myIntToFloat(64), passTriState(passTriState(0)))",104.4,13.8,33.0,120,1,10
+120,5.53458,1.0,0,"AdaBoostLearner(myProd(ARG0, 1), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",10.6,47.8,29.0,121,1,10
+121,118.984,1.0,0,"AdaBoostLearner(ARG0, learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), myIntAdd(255, 2), 0.01)",12.2,19.4,46.0,122,1,10
+122,5.47368,1.0,4,"AdaBoostLearner(myProd(ARG0, 2), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), 1, myFloatDiv(0.1, 0.1))",11.4,47.6,41.0,123,1,10
+123,5.56848,1.0,0,"AdaBoostLearner(myProd(ARG0, 2), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",10.6,47.8,30.0,124,1,10
+124,5.487,1.0,9,"AdaBoostLearner(ARG0, learnerType('LogR', {'penalty': 0, 'C': 1.0}), 1, 0.01)",6.6,48.4,43.0,125,1,10
+125,127.198,1.0,0,"AdaBoostLearner(myArcTangentMath(ARG0, 0), ModifyLearnerList(learnerType('Trees', {'criterion': 0, 'splitter': 0}), [1, -1]), 5, myFloatDiv(100.0, 10.0))",15.4,26.0,25.0,126,1,11
+126,5.51192,1.0,0,"BaggedLearner(ARG0, learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}))",15.4,20.6,26.0,127,1,11
+127,101.663,1.0,0,"AdaBoostLearner(ARG0, learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), myIntSub(255, 2), 1.0)",16.8,17.4,49.0,128,1,11
+128,5.50171,1.0,5,"SingleLearner(ARG0, learnerType('Trees', {'criterion': 0, 'splitter': 0}))",20.2,20.2,28.0,129,1,11
+129,5.45473,1.0,0,"AdaBoostLearner(myProd(ARG0, 1), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), ifThenFloat(trueBool, 100.0))",0.4,67.4,31.0,130,1,11
+130,5.49386,1.0,0,"AdaBoostLearner(scDivInt(ARG0, 10), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(10, falseBool), myFloatDiv(0.1, 0.1))",9.8,48.0,34.0,131,1,11
+131,5.48483,1.0,0,"AdaBoostLearner(myProd(ARG0, 0), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",0.0,68.4,29.0,132,1,11
+132,118.701,1.0,0,"AdaBoostLearner(ARG0, learnerType('Bayes', None), 2, 1.0)",103.6,7.4,41.0,133,1,11
+133,123.839,1.0,11,"AdaBoostLearner(scDivInt(ARG0, 10), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), 10.0)",109.8,0.0,54.0,134,1,11
+134,5.49194,1.0,8,"AdaBoostLearner(ARG0, learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), 2, 0.01)",11.6,21.4,43.0,135,1,11
+135,5.46386,1.0,3,"myPlanckTaper(AdaBoostLearner(myGaussian(ARG0, 100.0, 1), ModifyLearnerInt(learnerType('SVM', {'C': 1.0, 'kernel': 0}), falseBool, 5), passTriState(2), myIntToFloat(9)), myIntToFloat(64), passTriState(passTriState(0)))",104.4,13.8,33.0,136,1,11
+136,120.942,1.0,10,"myPlanckTaper(AdaBoostLearner(myGaussian(ARG0, 100.0, 0), ModifyLearnerInt(learnerType('Bayes', None), falseBool, 5), passTriState(1), myIntToFloat(9)), passFloat(100.0), passTriState(1))",18.8,19.0,29.0,137,1,11
+137,5.53458,1.0,0,"AdaBoostLearner(myProd(ARG0, 1), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",10.6,47.8,29.0,138,1,11
+138,118.984,1.0,0,"AdaBoostLearner(ARG0, learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), myIntAdd(255, 2), 0.01)",12.2,19.4,46.0,139,1,11
+139,9.57524,1.0,0,"AdaBoostLearner(ARG0, ModifyLearnerList(learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), [-12, -12]), myIntSub(255, 2), 0.615788985864941)",17.4,18.2,44.0,140,1,11
+140,5.44394,1.0,10,"myPlanckTaper(AdaBoostLearner(myGaussian(ARG0, 100.0, 0), ModifyLearnerFloat(learnerType('SVM', {'C': 1.0, 'kernel': 0}), 100.0), passTriState(1), myIntToFloat(9)), passFloat(myFloatAdd(myFloatAdd(100.0, 10.0), 0.1)), passTriState(1))",5.0,50.6,32.0,141,1,11
+141,5.47368,1.0,4,"AdaBoostLearner(myProd(ARG0, 2), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), 1, myFloatDiv(0.1, 0.1))",11.4,47.6,41.0,142,1,11
+142,5.56848,1.0,0,"AdaBoostLearner(myProd(ARG0, 2), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",10.6,47.8,30.0,143,1,11
+143,5.487,1.0,9,"AdaBoostLearner(ARG0, learnerType('LogR', {'penalty': 0, 'C': 1.0}), 1, 0.01)",6.6,48.4,43.0,144,1,11
+144,127.198,1.0,0,"AdaBoostLearner(myArcTangentMath(ARG0, 0), ModifyLearnerList(learnerType('Trees', {'criterion': 0, 'splitter': 0}), [1, -1]), 5, myFloatDiv(100.0, 10.0))",15.4,26.0,25.0,145,1,12
+145,5.51192,1.0,0,"BaggedLearner(ARG0, learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}))",15.4,20.6,26.0,146,1,12
+146,101.663,1.0,0,"AdaBoostLearner(ARG0, learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), myIntSub(255, 2), 1.0)",16.8,17.4,49.0,147,1,12
+147,5.50171,1.0,5,"SingleLearner(ARG0, learnerType('Trees', {'criterion': 0, 'splitter': 0}))",20.2,20.2,28.0,148,1,12
+148,5.45473,1.0,0,"AdaBoostLearner(myProd(ARG0, 1), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), ifThenFloat(trueBool, 100.0))",0.4,67.4,31.0,149,1,12
+149,5.49386,1.0,0,"AdaBoostLearner(scDivInt(ARG0, 10), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(10, falseBool), myFloatDiv(0.1, 0.1))",9.8,48.0,34.0,150,1,12
+150,5.48483,1.0,0,"AdaBoostLearner(myProd(ARG0, 0), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",0.0,68.4,29.0,151,1,12
+151,118.701,1.0,0,"AdaBoostLearner(ARG0, learnerType('Bayes', None), 2, 1.0)",103.6,7.4,41.0,152,1,12
+152,123.839,1.0,11,"AdaBoostLearner(scDivInt(ARG0, 10), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), 10.0)",109.8,0.0,54.0,153,1,12
+153,5.46386,1.0,3,"myPlanckTaper(AdaBoostLearner(myGaussian(ARG0, 100.0, 1), ModifyLearnerInt(learnerType('SVM', {'C': 1.0, 'kernel': 0}), falseBool, 5), passTriState(2), myIntToFloat(9)), myIntToFloat(64), passTriState(passTriState(0)))",104.4,13.8,33.0,154,1,12
+154,120.942,1.0,10,"myPlanckTaper(AdaBoostLearner(myGaussian(ARG0, 100.0, 0), ModifyLearnerInt(learnerType('Bayes', None), falseBool, 5), passTriState(1), myIntToFloat(9)), passFloat(100.0), passTriState(1))",18.8,19.0,29.0,155,1,12
+155,5.53458,1.0,0,"AdaBoostLearner(myProd(ARG0, 1), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",10.6,47.8,29.0,156,1,12
+156,118.984,1.0,0,"AdaBoostLearner(ARG0, learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), myIntAdd(255, 2), 0.01)",12.2,19.4,46.0,157,1,12
+157,9.57524,1.0,0,"AdaBoostLearner(ARG0, ModifyLearnerList(learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), [-12, -12]), myIntSub(255, 2), 0.615788985864941)",17.4,18.2,44.0,158,1,12
+158,5.44394,1.0,10,"myPlanckTaper(AdaBoostLearner(myGaussian(ARG0, 100.0, 0), ModifyLearnerFloat(learnerType('SVM', {'C': 1.0, 'kernel': 0}), 100.0), passTriState(1), myIntToFloat(9)), passFloat(myFloatAdd(myFloatAdd(100.0, 10.0), 0.1)), passTriState(1))",5.0,50.6,32.0,159,1,12
+159,5.47368,1.0,4,"AdaBoostLearner(myProd(ARG0, 2), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), 1, myFloatDiv(0.1, 0.1))",11.4,47.6,41.0,160,1,12
+160,5.56848,1.0,0,"AdaBoostLearner(myProd(ARG0, 2), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",10.6,47.8,30.0,161,1,12
+161,111.637,1.0,0,"AdaBoostLearner(ARG0, learnerType('LogR', {'penalty': 0, 'C': 1.0}), myIntSub(9, 2), 1.0)",8.2,30.0,51.0,162,1,12
+162,159.668,1.0,0,"AdaBoostLearner(ARG0, learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), 32, passFloat(0.01))",11.6,20.4,43.0,163,1,12
+163,5.487,1.0,9,"AdaBoostLearner(ARG0, learnerType('LogR', {'penalty': 0, 'C': 1.0}), 1, 0.01)",6.6,48.4,43.0,164,1,12
+164,127.198,1.0,0,"AdaBoostLearner(myArcTangentMath(ARG0, 0), ModifyLearnerList(learnerType('Trees', {'criterion': 0, 'splitter': 0}), [1, -1]), 5, myFloatDiv(100.0, 10.0))",15.4,26.0,25.0,165,1,13
+165,5.51192,1.0,0,"BaggedLearner(ARG0, learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}))",15.4,20.6,26.0,166,1,13
+166,101.663,1.0,0,"AdaBoostLearner(ARG0, learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), myIntSub(255, 2), 1.0)",16.8,17.4,49.0,167,1,13
+167,7.15376,1.0,0,"AdaBoostLearner(ARG0, ModifyLearnerList(learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), [-12, -12]), 42, 0.615788985864941)",16.6,18.4,28.0,168,1,13
+168,20.8338,1.0,12,"AdaBoostLearner(ARG0, learnerType('SVM', {'C': 1.0, 'kernel': 0}), myIntSub(255, 2), 1.3850572426509853)",8.8,39.8,50.0,169,1,13
+169,5.45242,1.0,0,"AdaBoostLearner(myGaussian(ARG0, 100.0, 0), learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), 2, 0.01)",11.2,21.4,40.0,170,1,13
+170,5.45473,1.0,0,"AdaBoostLearner(myProd(ARG0, 1), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), ifThenFloat(trueBool, 100.0))",0.4,67.4,31.0,171,1,13
+171,5.49386,1.0,0,"AdaBoostLearner(scDivInt(ARG0, 10), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(10, falseBool), myFloatDiv(0.1, 0.1))",9.8,48.0,34.0,172,1,13
+172,5.48483,1.0,0,"AdaBoostLearner(myProd(ARG0, 0), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",0.0,68.4,29.0,173,1,13
+173,118.701,1.0,0,"AdaBoostLearner(ARG0, learnerType('Bayes', None), 2, 1.0)",103.6,7.4,41.0,174,1,13
+174,5.42715,1.0,12,"AdaBoostLearner(myProd(ARG0, 1), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(5, falseBool), 100.0)",101.4,14.6,45.0,175,1,13
+175,123.839,1.0,11,"AdaBoostLearner(scDivInt(ARG0, 10), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), 10.0)",109.8,0.0,54.0,176,1,13
+176,7.59035,1.0,13,"myPlanckTaper(AdaBoostLearner(myGaussian(ARG0, 100.0, 0), ModifyLearnerInt(learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), myAnd(equal(myFloatMult(myFloatAdd(myIntToFloat(32), ifThenElseFloat(trueBool, 1.0, 100.0)), myFloatDiv(passFloat(1.0), ifThenFloat(falseBool, 1.0))), myIntToFloat(greaterThan(passFloat(10.0), 0.1))), passBool(trueBool)), 5), passTriState(1), myIntToFloat(9)), passFloat(myFloatAdd(myFloatAdd(100.0, 10.0), 0.1)), passTriState(1))",11.2,21.0,55.0,177,1,13
+177,49.085,1.0,0,"AdaBoostLearner(ARG0, learnerType('SVM', {'C': 1.0, 'kernel': 0}), myIntAdd(255, 2), 0.01)",5.2,43.6,46.0,178,1,13
+178,5.46386,1.0,3,"myPlanckTaper(AdaBoostLearner(myGaussian(ARG0, 100.0, 1), ModifyLearnerInt(learnerType('SVM', {'C': 1.0, 'kernel': 0}), falseBool, 5), passTriState(2), myIntToFloat(9)), myIntToFloat(64), passTriState(passTriState(0)))",104.4,13.8,33.0,179,1,13
+179,10.9424,1.0,13,"AdaBoostLearner(ARG0, learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), 6, 0.01)",11.2,21.2,47.0,180,1,13
+180,5.53458,1.0,0,"AdaBoostLearner(myProd(ARG0, 1), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",10.6,47.8,29.0,181,1,13
+181,118.984,1.0,0,"AdaBoostLearner(ARG0, learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), myIntAdd(255, 2), 0.01)",12.2,19.4,46.0,182,1,13
+182,9.57524,1.0,0,"AdaBoostLearner(ARG0, ModifyLearnerList(learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), [-12, -12]), myIntSub(255, 2), 0.615788985864941)",17.4,18.2,44.0,183,1,13
+183,5.44394,1.0,10,"myPlanckTaper(AdaBoostLearner(myGaussian(ARG0, 100.0, 0), ModifyLearnerFloat(learnerType('SVM', {'C': 1.0, 'kernel': 0}), 100.0), passTriState(1), myIntToFloat(9)), passFloat(myFloatAdd(myFloatAdd(100.0, 10.0), 0.1)), passTriState(1))",5.0,50.6,32.0,184,1,13
+184,5.56848,1.0,0,"AdaBoostLearner(myProd(ARG0, 2), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",10.6,47.8,30.0,185,1,13
+185,111.637,1.0,0,"AdaBoostLearner(ARG0, learnerType('LogR', {'penalty': 0, 'C': 1.0}), myIntSub(9, 2), 1.0)",8.2,30.0,51.0,186,1,13
+186,159.668,1.0,0,"AdaBoostLearner(ARG0, learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), 32, passFloat(0.01))",11.6,20.4,43.0,187,1,13
+187,5.487,1.0,9,"AdaBoostLearner(ARG0, learnerType('LogR', {'penalty': 0, 'C': 1.0}), 1, 0.01)",6.6,48.4,43.0,188,1,13
+188,127.198,1.0,0,"AdaBoostLearner(myArcTangentMath(ARG0, 0), ModifyLearnerList(learnerType('Trees', {'criterion': 0, 'splitter': 0}), [1, -1]), 5, myFloatDiv(100.0, 10.0))",15.4,26.0,25.0,189,1,14
+189,5.51192,1.0,0,"BaggedLearner(ARG0, learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}))",15.4,20.6,26.0,190,1,14
+190,5.5687,1.0,0,"AdaBoostLearner(myGaussian(ARG0, 100.0, 0), learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), 2, ifThenElseFloat(falseBool, 0.01, 0.1))",10.6,21.4,45.0,191,1,14
+191,101.663,1.0,0,"AdaBoostLearner(ARG0, learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), myIntSub(255, 2), 1.0)",16.8,17.4,49.0,192,1,14
+192,7.15376,1.0,0,"AdaBoostLearner(ARG0, ModifyLearnerList(learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), [-12, -12]), 42, 0.615788985864941)",16.6,18.4,28.0,193,1,14
+193,20.8338,1.0,12,"AdaBoostLearner(ARG0, learnerType('SVM', {'C': 1.0, 'kernel': 0}), myIntSub(255, 2), 1.3850572426509853)",8.8,39.8,50.0,194,1,14
+194,5.48644,1.0,13,"AdaBoostLearner(scDivInt(ARG0, 1), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.21785297418006344), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",4.6,50.4,31.0,195,1,14
+195,5.45242,1.0,0,"AdaBoostLearner(myGaussian(ARG0, 100.0, 0), learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), 2, 0.01)",11.2,21.4,40.0,196,1,14
+196,5.45473,1.0,0,"AdaBoostLearner(myProd(ARG0, 1), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), ifThenFloat(trueBool, 100.0))",0.4,67.4,31.0,197,1,14
+197,5.49386,1.0,0,"AdaBoostLearner(scDivInt(ARG0, 10), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(10, falseBool), myFloatDiv(0.1, 0.1))",9.8,48.0,34.0,198,1,14
+198,5.48483,1.0,0,"AdaBoostLearner(myProd(ARG0, 0), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",0.0,68.4,29.0,199,1,14
+199,118.701,1.0,0,"AdaBoostLearner(ARG0, learnerType('Bayes', None), 2, 1.0)",103.6,7.4,41.0,200,1,14
+200,5.40774,1.0,0,"AdaBoostLearner(ARG0, learnerType('Bayes', None), 2, 2.5846962148464545)",99.0,9.8,40.0,201,1,14
+201,5.44071,1.0,0,"myPlanckTaper(AdaBoostLearner(ARG0, ModifyLearnerInt(learnerType('SVM', {'C': 1.0, 'kernel': 0}), falseBool, 5), passTriState(2), myIntToFloat(9)), myFloatDiv(100.0, 10.0), passTriState(1))",104.4,13.8,29.0,202,1,14
+202,10.5765,1.0,13,"myPlanckTaper(AdaBoostLearner(myGaussian(ARG0, 100.0, 0), ModifyLearnerInt(learnerType('RandForest', {'n_estimators': 100, 'class_weight': 0, 'criterion': 0}), falseBool, 5), passTriState(2), myIntToFloat(9)), passFloat(myFloatAdd(myFloatAdd(100.0, 10.0), 0.1)), passTriState(1))",16.0,19.2,33.0,203,1,14
+203,123.839,1.0,11,"AdaBoostLearner(scDivInt(ARG0, 10), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), 10.0)",109.8,0.0,54.0,204,1,14
+204,7.59035,1.0,13,"myPlanckTaper(AdaBoostLearner(myGaussian(ARG0, 100.0, 0), ModifyLearnerInt(learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), myAnd(equal(myFloatMult(myFloatAdd(myIntToFloat(32), ifThenElseFloat(trueBool, 1.0, 100.0)), myFloatDiv(passFloat(1.0), ifThenFloat(falseBool, 1.0))), myIntToFloat(greaterThan(passFloat(10.0), 0.1))), passBool(trueBool)), 5), passTriState(1), myIntToFloat(9)), passFloat(myFloatAdd(myFloatAdd(100.0, 10.0), 0.1)), passTriState(1))",11.2,21.0,55.0,205,1,14
+205,49.085,1.0,0,"AdaBoostLearner(ARG0, learnerType('SVM', {'C': 1.0, 'kernel': 0}), myIntAdd(255, 2), 0.01)",5.2,43.6,46.0,206,1,14
+206,10.9424,1.0,13,"AdaBoostLearner(ARG0, learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), 6, 0.01)",11.2,21.2,47.0,207,1,14
+207,5.53458,1.0,0,"AdaBoostLearner(myProd(ARG0, 1), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",10.6,47.8,29.0,208,1,14
+208,5.58434,1.0,0,"AdaBoostLearner(myArcTangentMath(ARG0, 1), ModifyLearnerList(learnerType('Trees', {'criterion': 0, 'splitter': 0}), [1, -1]), 5, myFloatDiv(100.0, myIntToFloat(4)))",36.4,19.2,20.0,209,1,14
+209,118.984,1.0,0,"AdaBoostLearner(ARG0, learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), myIntAdd(255, 2), 0.01)",12.2,19.4,46.0,210,1,14
+210,9.57524,1.0,0,"AdaBoostLearner(ARG0, ModifyLearnerList(learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), [-12, -12]), myIntSub(255, 2), 0.615788985864941)",17.4,18.2,44.0,211,1,14
+211,5.40873,1.0,0,"myPlanckTaper(AdaBoostLearner(myGaussian(myBartlettHann(ARG0, 0), 100.0, 0), ModifyLearnerInt(learnerType('Bayes', None), falseBool, 5), passTriState(2), myIntToFloat(9)), passFloat(myFloatAdd(myFloatAdd(100.0, 10.0), 0.1)), passTriState(1))",106.8,10.0,34.0,212,1,14
+212,5.56848,1.0,0,"AdaBoostLearner(myProd(ARG0, 2), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",10.6,47.8,30.0,213,1,14
+213,111.637,1.0,0,"AdaBoostLearner(ARG0, learnerType('LogR', {'penalty': 0, 'C': 1.0}), myIntSub(9, 2), 1.0)",8.2,30.0,51.0,214,1,14
+214,159.668,1.0,0,"AdaBoostLearner(ARG0, learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), 32, passFloat(0.01))",11.6,20.4,43.0,215,1,14
+215,5.487,1.0,9,"AdaBoostLearner(ARG0, learnerType('LogR', {'penalty': 0, 'C': 1.0}), 1, 0.01)",6.6,48.4,43.0,216,1,14
+216,127.198,1.0,0,"AdaBoostLearner(myArcTangentMath(ARG0, 0), ModifyLearnerList(learnerType('Trees', {'criterion': 0, 'splitter': 0}), [1, -1]), 5, myFloatDiv(100.0, 10.0))",15.4,26.0,25.0,217,1,15
+217,5.51192,1.0,0,"BaggedLearner(ARG0, learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}))",15.4,20.6,26.0,218,1,15
+218,5.5687,1.0,0,"AdaBoostLearner(myGaussian(ARG0, 100.0, 0), learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), 2, ifThenElseFloat(falseBool, 0.01, 0.1))",10.6,21.4,45.0,219,1,15
+219,101.663,1.0,0,"AdaBoostLearner(ARG0, learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), myIntSub(255, 2), 1.0)",16.8,17.4,49.0,220,1,15
+220,7.15376,1.0,0,"AdaBoostLearner(ARG0, ModifyLearnerList(learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), [-12, -12]), 42, 0.615788985864941)",16.6,18.4,28.0,221,1,15
+221,20.8338,1.0,12,"AdaBoostLearner(ARG0, learnerType('SVM', {'C': 1.0, 'kernel': 0}), myIntSub(255, 2), 1.3850572426509853)",8.8,39.8,50.0,222,1,15
+222,5.45242,1.0,0,"AdaBoostLearner(myGaussian(ARG0, 100.0, 0), learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), 2, 0.01)",11.2,21.4,40.0,223,1,15
+223,5.45473,1.0,0,"AdaBoostLearner(myProd(ARG0, 1), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), ifThenFloat(trueBool, 100.0))",0.4,67.4,31.0,224,1,15
+224,5.49386,1.0,0,"AdaBoostLearner(scDivInt(ARG0, 10), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(10, falseBool), myFloatDiv(0.1, 0.1))",9.8,48.0,34.0,225,1,15
+225,5.48483,1.0,0,"AdaBoostLearner(myProd(ARG0, 0), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",0.0,68.4,29.0,226,1,15
+226,118.701,1.0,0,"AdaBoostLearner(ARG0, learnerType('Bayes', None), 2, 1.0)",103.6,7.4,41.0,227,1,15
+227,5.40774,1.0,0,"AdaBoostLearner(ARG0, learnerType('Bayes', None), 2, 2.5846962148464545)",99.0,9.8,40.0,228,1,15
+228,5.44071,1.0,0,"myPlanckTaper(AdaBoostLearner(ARG0, ModifyLearnerInt(learnerType('SVM', {'C': 1.0, 'kernel': 0}), falseBool, 5), passTriState(2), myIntToFloat(9)), myFloatDiv(100.0, 10.0), passTriState(1))",104.4,13.8,29.0,229,1,15
+229,150.136,1.0,0,"BaggedLearner(randShuffle(ARG0), learnerType('RandForest', {'n_estimators': 100, 'class_weight': 0, 'criterion': 0}))",12.6,19.2,28.0,230,1,15
+230,123.839,1.0,11,"AdaBoostLearner(scDivInt(ARG0, 10), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), 10.0)",109.8,0.0,54.0,231,1,15
+231,7.59035,1.0,13,"myPlanckTaper(AdaBoostLearner(myGaussian(ARG0, 100.0, 0), ModifyLearnerInt(learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), myAnd(equal(myFloatMult(myFloatAdd(myIntToFloat(32), ifThenElseFloat(trueBool, 1.0, 100.0)), myFloatDiv(passFloat(1.0), ifThenFloat(falseBool, 1.0))), myIntToFloat(greaterThan(passFloat(10.0), 0.1))), passBool(trueBool)), 5), passTriState(1), myIntToFloat(9)), passFloat(myFloatAdd(myFloatAdd(100.0, 10.0), 0.1)), passTriState(1))",11.2,21.0,55.0,232,1,15
+232,7.73544,1.0,0,"AdaBoostLearner(scDivInt(ARG0, 10), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(128, falseBool), myFloatDiv(0.1, 0.1))",3.8,50.0,31.0,233,1,15
+233,49.085,1.0,0,"AdaBoostLearner(ARG0, learnerType('SVM', {'C': 1.0, 'kernel': 0}), myIntAdd(255, 2), 0.01)",5.2,43.6,46.0,234,1,15
+234,10.9424,1.0,13,"AdaBoostLearner(ARG0, learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), 6, 0.01)",11.2,21.2,47.0,235,1,15
+235,5.53458,1.0,0,"AdaBoostLearner(myProd(ARG0, 1), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",10.6,47.8,29.0,236,1,15
+236,5.58434,1.0,0,"AdaBoostLearner(myArcTangentMath(ARG0, 1), ModifyLearnerList(learnerType('Trees', {'criterion': 0, 'splitter': 0}), [1, -1]), 5, myFloatDiv(100.0, myIntToFloat(4)))",36.4,19.2,20.0,237,1,15
+237,5.40266,1.0,0,"AdaBoostLearner(ARG0, ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntSub(255, myIntSub(4, 2)), 1.0)",3.8,46.8,55.0,238,1,15
+238,118.984,1.0,0,"AdaBoostLearner(ARG0, learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), myIntAdd(255, 2), 0.01)",12.2,19.4,46.0,239,1,15
+239,9.57524,1.0,0,"AdaBoostLearner(ARG0, ModifyLearnerList(learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), [-12, -12]), myIntSub(255, 2), 0.615788985864941)",17.4,18.2,44.0,240,1,15
+240,5.40873,1.0,0,"myPlanckTaper(AdaBoostLearner(myGaussian(myBartlettHann(ARG0, 0), 100.0, 0), ModifyLearnerInt(learnerType('Bayes', None), falseBool, 5), passTriState(2), myIntToFloat(9)), passFloat(myFloatAdd(myFloatAdd(100.0, 10.0), 0.1)), passTriState(1))",106.8,10.0,34.0,241,1,15
+241,5.56848,1.0,0,"AdaBoostLearner(myProd(ARG0, 2), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",10.6,47.8,30.0,242,1,15
+242,5.45093,1.0,0,"AdaBoostLearner(ARG0, ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, trueBool), 0.1)",11.2,47.6,24.0,243,1,15
+243,111.637,1.0,0,"AdaBoostLearner(ARG0, learnerType('LogR', {'penalty': 0, 'C': 1.0}), myIntSub(9, 2), 1.0)",8.2,30.0,51.0,244,1,15
+244,159.668,1.0,0,"AdaBoostLearner(ARG0, learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), 32, passFloat(0.01))",11.6,20.4,43.0,245,1,15
+245,5.487,1.0,9,"AdaBoostLearner(ARG0, learnerType('LogR', {'penalty': 0, 'C': 1.0}), 1, 0.01)",6.6,48.4,43.0,246,1,15
+246,127.198,1.0,0,"AdaBoostLearner(myArcTangentMath(ARG0, 0), ModifyLearnerList(learnerType('Trees', {'criterion': 0, 'splitter': 0}), [1, -1]), 5, myFloatDiv(100.0, 10.0))",15.4,26.0,25.0,247,1,16
+247,5.51192,1.0,0,"BaggedLearner(ARG0, learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}))",15.4,20.6,26.0,248,1,16
+248,5.5687,1.0,0,"AdaBoostLearner(myGaussian(ARG0, 100.0, 0), learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), 2, ifThenElseFloat(falseBool, 0.01, 0.1))",10.6,21.4,45.0,249,1,16
+249,101.663,1.0,0,"AdaBoostLearner(ARG0, learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), myIntSub(255, 2), 1.0)",16.8,17.4,49.0,250,1,16
+250,7.15376,1.0,0,"AdaBoostLearner(ARG0, ModifyLearnerList(learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), [-12, -12]), 42, 0.615788985864941)",16.6,18.4,28.0,251,1,16
+251,5.45242,1.0,0,"AdaBoostLearner(myGaussian(ARG0, 100.0, 0), learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), 2, 0.01)",11.2,21.4,40.0,252,1,16
+252,5.55023,1.0,0,"BaggedLearner(randShuffle(ARG0), learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}))",15.4,20.6,28.0,253,1,16
+253,5.45473,1.0,0,"AdaBoostLearner(myProd(ARG0, 1), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), ifThenFloat(trueBool, 100.0))",0.4,67.4,31.0,254,1,16
+254,5.49386,1.0,0,"AdaBoostLearner(scDivInt(ARG0, 10), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(10, falseBool), myFloatDiv(0.1, 0.1))",9.8,48.0,34.0,255,1,16
+255,130.124,1.0,0,"SingleLearner(ARG0, learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}))",11.6,21.0,27.0,256,1,16
+256,5.48483,1.0,0,"AdaBoostLearner(myProd(ARG0, 0), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",0.0,68.4,29.0,257,1,16
+257,7.12559,1.0,0,"AdaBoostLearner(scDivInt(ARG0, 1), ModifyLearnerList(ModifyLearnerFloat(learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), 0.01), [7, -12]), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",10.0,23.0,36.0,258,1,16
+258,19.3241,0.0,0,"AdaBoostLearner(myArcTangentMath(ARG0, 0), ModifyLearnerList(ModifyLearnerInt(learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), falseBool, 5), [1, -1]), passInt(3), myFloatDiv(100.0, passFloat(10.0)))",,,,259,1,16
+259,118.701,1.0,0,"AdaBoostLearner(ARG0, learnerType('Bayes', None), 2, 1.0)",103.6,7.4,41.0,260,1,16
+260,5.40774,1.0,0,"AdaBoostLearner(ARG0, learnerType('Bayes', None), 2, 2.5846962148464545)",99.0,9.8,40.0,261,1,16
+261,5.44071,1.0,0,"myPlanckTaper(AdaBoostLearner(ARG0, ModifyLearnerInt(learnerType('SVM', {'C': 1.0, 'kernel': 0}), falseBool, 5), passTriState(2), myIntToFloat(9)), myFloatDiv(100.0, 10.0), passTriState(1))",104.4,13.8,29.0,262,1,16
+262,150.136,1.0,0,"BaggedLearner(randShuffle(ARG0), learnerType('RandForest', {'n_estimators': 100, 'class_weight': 0, 'criterion': 0}))",12.6,19.2,28.0,263,1,16
+263,5.53644,1.0,0,"AdaBoostLearner(ARG0, learnerType('Bayes', None), myIntSub(9, 2), 1.0)",38.2,17.4,48.0,264,1,16
+264,165.033,1.0,0,"AdaBoostLearner(ARG0, learnerType('LogR', {'penalty': 0, 'C': 1.0}), myIntAdd(255, equal(passFloat(myIntToFloat(150)), myFloatSub(myFloatMult(0.8732385292242792, 10.0), myFloatMult(10.0, 0.01)))), 0.01)",4.0,45.6,54.0,265,1,16
+265,7.73544,1.0,0,"AdaBoostLearner(scDivInt(ARG0, 10), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(128, falseBool), myFloatDiv(0.1, 0.1))",3.8,50.0,31.0,266,1,16
+266,49.085,1.0,0,"AdaBoostLearner(ARG0, learnerType('SVM', {'C': 1.0, 'kernel': 0}), myIntAdd(255, 2), 0.01)",5.2,43.6,46.0,267,1,16
+267,5.48787,1.0,0,"AdaBoostLearner(myProd(ARG0, 2), learnerType('LogR', {'penalty': 0, 'C': 1.0}), myIntAdd(5, falseBool), myFloatDiv(0.1, 0.1))",4.2,42.8,41.0,268,1,16
+268,5.46753,1.0,0,"AdaBoostLearner(ARG0, learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), myIntSub(5, trueBool), 0.01)",11.2,21.0,43.0,269,1,16
+269,5.53458,1.0,0,"AdaBoostLearner(myProd(ARG0, 1), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",10.6,47.8,29.0,270,1,16
+270,5.58434,1.0,0,"AdaBoostLearner(myArcTangentMath(ARG0, 1), ModifyLearnerList(learnerType('Trees', {'criterion': 0, 'splitter': 0}), [1, -1]), 5, myFloatDiv(100.0, myIntToFloat(4)))",36.4,19.2,20.0,271,1,16
+271,5.53213,1.0,0,"AdaBoostLearner(myProd(ARG0, 0), ModifyLearnerFloat(learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), 0.01), 2, ifThenFloat(trueBool, 100.0))",109.8,0.0,29.0,272,1,16
+272,5.40266,1.0,0,"AdaBoostLearner(ARG0, ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntSub(255, myIntSub(4, 2)), 1.0)",3.8,46.8,55.0,273,1,16
+273,185.679,1.0,0,"AdaBoostLearner(myProd(ARG0, 2), ModifyLearnerFloat(learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), 0.01), myIntAdd(passInt(passBool(falseBool)), falseBool), myFloatDiv(0.1, 0.1))",13.0,18.4,36.0,274,1,16
+274,118.984,1.0,0,"AdaBoostLearner(ARG0, learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), myIntAdd(255, 2), 0.01)",12.2,19.4,46.0,275,1,16
+275,9.57524,1.0,0,"AdaBoostLearner(ARG0, ModifyLearnerList(learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), [-12, -12]), myIntSub(255, 2), 0.615788985864941)",17.4,18.2,44.0,276,1,16
+276,40.8649,1.0,0,"AdaBoostLearner(ARG0, learnerType('SVM', {'C': 1.0, 'kernel': 0}), 255, 0.01)",5.2,43.6,43.0,277,1,16
+277,5.40873,1.0,0,"myPlanckTaper(AdaBoostLearner(myGaussian(myBartlettHann(ARG0, 0), 100.0, 0), ModifyLearnerInt(learnerType('Bayes', None), falseBool, 5), passTriState(2), myIntToFloat(9)), passFloat(myFloatAdd(myFloatAdd(100.0, 10.0), 0.1)), passTriState(1))",106.8,10.0,34.0,278,1,16
+278,5.56848,1.0,0,"AdaBoostLearner(myProd(ARG0, 2), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",10.6,47.8,30.0,279,1,16
+279,5.45093,1.0,0,"AdaBoostLearner(ARG0, ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, trueBool), 0.1)",11.2,47.6,24.0,280,1,16
+280,111.637,1.0,0,"AdaBoostLearner(ARG0, learnerType('LogR', {'penalty': 0, 'C': 1.0}), myIntSub(9, 2), 1.0)",8.2,30.0,51.0,281,1,16
+281,159.668,1.0,0,"AdaBoostLearner(ARG0, learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), 32, passFloat(0.01))",11.6,20.4,43.0,282,1,16
+282,127.198,1.0,0,"AdaBoostLearner(myArcTangentMath(ARG0, 0), ModifyLearnerList(learnerType('Trees', {'criterion': 0, 'splitter': 0}), [1, -1]), 5, myFloatDiv(100.0, 10.0))",15.4,26.0,25.0,283,2,0
+283,5.51192,1.0,0,"BaggedLearner(ARG0, learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}))",15.4,20.6,26.0,284,2,0
+284,127.088,1.0,17,"myBartlettHann(BaggedLearner(ARG0, ModifyLearnerFloat(learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), 0.01)), passTriState(passTriState(passTriState(0))))",13.6,19.0,43.0,285,2,0
+285,111.204,1.0,17,"AdaBoostLearner(scDivInt(ARG0, 10), ModifyLearnerFloat(learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), 0.01), myIntAdd(128, falseBool), myFloatDiv(0.1, 0.1))",16.6,18.2,44.0,286,2,0
+286,125.185,1.0,17,"AdaBoostLearner(myVarThresh(ARG0, 0.01), learnerType('Bayes', None), myIntSub(4, 2), 1.0)",103.6,7.4,52.0,287,2,0
+287,132.059,1.0,17,"AdaBoostLearner(ARG0, learnerType('Trees', {'criterion': 0, 'splitter': 0}), 32, 0.01)",16.4,20.4,32.0,288,2,0
+288,133.831,1.0,16,"AdaBoostLearner(ARG0, learnerType('Bayes', None), 2, 3.1341033733288803)",94.6,14.0,42.0,289,2,0
+289,135.235,1.0,17,"AdaBoostLearner(scDivInt(ARG0, 1), ModifyLearnerList(ModifyLearnerFloat(learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), 0.01), [-4, 2]), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",10.0,23.0,35.0,290,2,0
+290,5.45473,1.0,0,"AdaBoostLearner(myProd(ARG0, 1), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), ifThenFloat(trueBool, 100.0))",0.4,67.4,31.0,291,2,0
+291,5.49386,1.0,0,"AdaBoostLearner(scDivInt(ARG0, 10), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(10, falseBool), myFloatDiv(0.1, 0.1))",9.8,48.0,34.0,292,2,0
+292,5.48483,1.0,0,"AdaBoostLearner(myProd(ARG0, 0), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",0.0,68.4,29.0,293,2,0
+293,5.40774,1.0,0,"AdaBoostLearner(ARG0, learnerType('Bayes', None), 2, 2.5846962148464545)",99.0,9.8,40.0,294,2,0
+294,5.44071,1.0,0,"myPlanckTaper(AdaBoostLearner(ARG0, ModifyLearnerInt(learnerType('SVM', {'C': 1.0, 'kernel': 0}), falseBool, 5), passTriState(2), myIntToFloat(9)), myFloatDiv(100.0, 10.0), passTriState(1))",104.4,13.8,29.0,295,2,0
+295,5.40138,1.0,17,"AdaBoostLearner(myProd(ARG0, 1), ModifyLearnerFloat(learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), 0.01), 2, ifThenFloat(trueBool, 100.0))",106.2,8.8,29.0,296,2,0
+296,5.50101,1.0,16,"myPlanckTaper(AdaBoostLearner(myGaussian(ARG0, 100.0, 1), learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), passTriState(1), myIntToFloat(9)), passFloat(myFloatAdd(myFloatAdd(100.0, 10.0), 0.1)), passTriState(0))",11.6,21.0,30.0,297,2,0
+297,168.034,1.0,17,"myPlanckTaper(AdaBoostLearner(myGaussian(ARG0, 100.0, 0), ModifyLearnerInt(learnerType('LogR', {'penalty': 0, 'C': 1.0}), falseBool, 100), passTriState(1), myIntToFloat(9)), passFloat(myFloatAdd(myFloatAdd(100.0, 10.0), 0.1)), passTriState(1))",6.0,49.2,35.0,298,2,0
+298,131.55,1.0,17,"AdaBoostLearner(myProd(ARG0, 1), ModifyLearnerFloat(learnerType('RandForest', {'n_estimators': 100, 'class_weight': 0, 'criterion': 0}), 0.01), myIntAdd(5, falseBool), 0.1)",15.0,18.6,54.0,299,2,0
+299,5.38758,1.0,16,"AdaBoostLearner(scSubInt(myProd(ARG0, 1), 5), learnerType('RandForest', {'n_estimators': 100, 'class_weight': 0, 'criterion': 0}), 2, 1.0)",15.6,18.8,48.0,300,2,0
+300,7.73544,1.0,0,"AdaBoostLearner(scDivInt(ARG0, 10), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(128, falseBool), myFloatDiv(0.1, 0.1))",3.8,50.0,31.0,301,2,0
+301,141.898,1.0,17,"AdaBoostLearner(ARG0, ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), 3, myFloatDiv(0.1, 0.1))",5.4,54.6,29.0,302,2,0
+302,5.48787,1.0,0,"AdaBoostLearner(myProd(ARG0, 2), learnerType('LogR', {'penalty': 0, 'C': 1.0}), myIntAdd(5, falseBool), myFloatDiv(0.1, 0.1))",4.2,42.8,41.0,303,2,0
+303,112.408,1.0,17,"BaggedLearner(randShuffle(myGaussian(ARG0, 100.0, 1)), learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}))",14.4,19.2,33.0,304,2,0
+304,124.549,1.0,17,"AdaBoostLearner(scSubInt(ARG0, 5), learnerType('RandForest', {'n_estimators': 100, 'class_weight': 0, 'criterion': 0}), 2, 100.0)",31.8,14.2,48.0,305,2,0
+305,159.722,1.0,17,"AdaBoostLearner(ARG0, ModifyLearnerFloat(learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), 100.0), myIntSub(255, myIntSub(4, 2)), 1.0)",16.8,17.4,50.0,306,2,0
+306,5.53458,1.0,0,"AdaBoostLearner(myProd(ARG0, 1), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",10.6,47.8,29.0,307,2,0
+307,5.58434,1.0,0,"AdaBoostLearner(myArcTangentMath(ARG0, 1), ModifyLearnerList(learnerType('Trees', {'criterion': 0, 'splitter': 0}), [1, -1]), 5, myFloatDiv(100.0, myIntToFloat(4)))",36.4,19.2,20.0,308,2,0
+308,5.53213,1.0,0,"AdaBoostLearner(myProd(ARG0, 0), ModifyLearnerFloat(learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), 0.01), 2, ifThenFloat(trueBool, 100.0))",109.8,0.0,29.0,309,2,0
+309,5.40266,1.0,0,"AdaBoostLearner(ARG0, ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntSub(255, myIntSub(4, 2)), 1.0)",3.8,46.8,55.0,310,2,0
+310,131.915,1.0,16,"AdaBoostLearner(myGaussian(ARG0, 100.0, 0), learnerType('SVM', {'C': 1.0, 'kernel': 0}), myIntSub(255, 2), 1.3850572426509853)",8.8,37.6,53.0,311,2,0
+311,5.39663,1.0,17,"myPlanckTaper(AdaBoostLearner(ARG0, ModifyLearnerInt(learnerType('LogR', {'penalty': 0, 'C': 1.0}), falseBool, 5), passTriState(1), myIntToFloat(9)), passFloat(myFloatAdd(myFloatAdd(100.0, 10.0), 0.1)), passTriState(0))",6.6,48.4,38.0,312,2,0
+312,5.40078,1.0,17,"AdaBoostLearner(scDivInt(ARG0, 10), ModifyLearnerList(learnerType('LogR', {'penalty': 0, 'C': 1.0}), [1, 13]), myIntAdd(10, falseBool), myFloatDiv(0.1, 0.1))",10.8,26.6,32.0,313,2,0
+313,178.116,1.0,17,"BaggedLearner(ARG0, learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}))",9.8,20.8,38.0,314,2,0
+314,139.08,1.0,16,"myPlanckTaper(AdaBoostLearner(myGaussian(ARG0, 100.0, 0), ModifyLearnerInt(learnerType('RandForest', {'n_estimators': 100, 'class_weight': 0, 'criterion': 0}), falseBool, 5), passTriState(2), myIntToFloat(9)), passFloat(myFloatAdd(myFloatAdd(100.0, 10.0), 0.1)), 1)",16.6,19.2,31.0,315,2,0
+315,114.927,1.0,17,"BaggedLearner(randShuffle(ARG0), learnerType('Bayes', None))",19.4,19.2,30.0,316,2,0
+316,137.659,1.0,17,"AdaBoostLearner(ARG0, learnerType('LogR', {'penalty': 0, 'C': 1.0}), 255, 0.01)",4.0,45.6,47.0,317,2,0
+317,114.677,1.0,17,"myPlanckTaper(AdaBoostLearner(myGaussian(ARG0, 4.277402487995257, 0), ModifyLearnerInt(learnerType('Bayes', None), falseBool, 5), passTriState(1), myIntToFloat(9)), passFloat(myFloatAdd(100.0, 0.1)), passTriState(1))",18.8,19.0,32.0,318,2,0
+318,127.198,1.0,0,"AdaBoostLearner(myArcTangentMath(ARG0, 0), ModifyLearnerList(learnerType('Trees', {'criterion': 0, 'splitter': 0}), [1, -1]), 5, myFloatDiv(100.0, 10.0))",15.4,26.0,25.0,319,2,1
+319,5.51192,1.0,0,"BaggedLearner(ARG0, learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}))",15.4,20.6,26.0,320,2,1
+320,101.663,1.0,0,"AdaBoostLearner(ARG0, learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), myIntSub(255, 2), 1.0)",16.8,17.4,49.0,321,2,1
+321,111.204,1.0,17,"AdaBoostLearner(scDivInt(ARG0, 10), ModifyLearnerFloat(learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), 0.01), myIntAdd(128, falseBool), myFloatDiv(0.1, 0.1))",16.6,18.2,44.0,322,2,1
+322,125.185,1.0,17,"AdaBoostLearner(myVarThresh(ARG0, 0.01), learnerType('Bayes', None), myIntSub(4, 2), 1.0)",103.6,7.4,52.0,323,2,1
+323,133.831,1.0,16,"AdaBoostLearner(ARG0, learnerType('Bayes', None), 2, 3.1341033733288803)",94.6,14.0,42.0,324,2,1
+324,135.235,1.0,17,"AdaBoostLearner(scDivInt(ARG0, 1), ModifyLearnerList(ModifyLearnerFloat(learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), 0.01), [-4, 2]), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",10.0,23.0,35.0,325,2,1
+325,5.45473,1.0,0,"AdaBoostLearner(myProd(ARG0, 1), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), ifThenFloat(trueBool, 100.0))",0.4,67.4,31.0,326,2,1
+326,5.49386,1.0,0,"AdaBoostLearner(scDivInt(ARG0, 10), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(10, falseBool), myFloatDiv(0.1, 0.1))",9.8,48.0,34.0,327,2,1
+327,130.124,1.0,0,"SingleLearner(ARG0, learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}))",11.6,21.0,27.0,328,2,1
+328,5.48483,1.0,0,"AdaBoostLearner(myProd(ARG0, 0), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",0.0,68.4,29.0,329,2,1
+329,5.40774,1.0,0,"AdaBoostLearner(ARG0, learnerType('Bayes', None), 2, 2.5846962148464545)",99.0,9.8,40.0,330,2,1
+330,127.264,1.0,16,"AdaBoostLearner(ARG0, learnerType('LogR', {'penalty': 0, 'C': 1.0}), 128, myIntToFloat(10))",86.2,12.8,49.0,331,2,1
+331,5.44071,1.0,0,"myPlanckTaper(AdaBoostLearner(ARG0, ModifyLearnerInt(learnerType('SVM', {'C': 1.0, 'kernel': 0}), falseBool, 5), passTriState(2), myIntToFloat(9)), myFloatDiv(100.0, 10.0), passTriState(1))",104.4,13.8,29.0,332,2,1
+332,5.40138,1.0,17,"AdaBoostLearner(myProd(ARG0, 1), ModifyLearnerFloat(learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), 0.01), 2, ifThenFloat(trueBool, 100.0))",106.2,8.8,29.0,333,2,1
+333,150.136,1.0,0,"BaggedLearner(randShuffle(ARG0), learnerType('RandForest', {'n_estimators': 100, 'class_weight': 0, 'criterion': 0}))",12.6,19.2,28.0,334,2,1
+334,168.034,1.0,17,"myPlanckTaper(AdaBoostLearner(myGaussian(ARG0, 100.0, 0), ModifyLearnerInt(learnerType('LogR', {'penalty': 0, 'C': 1.0}), falseBool, 100), passTriState(1), myIntToFloat(9)), passFloat(myFloatAdd(myFloatAdd(100.0, 10.0), 0.1)), passTriState(1))",6.0,49.2,35.0,335,2,1
+335,7.73544,1.0,0,"AdaBoostLearner(scDivInt(ARG0, 10), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(128, falseBool), myFloatDiv(0.1, 0.1))",3.8,50.0,31.0,336,2,1
+336,141.898,1.0,17,"AdaBoostLearner(ARG0, ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), 3, myFloatDiv(0.1, 0.1))",5.4,54.6,29.0,337,2,1
+337,5.48787,1.0,0,"AdaBoostLearner(myProd(ARG0, 2), learnerType('LogR', {'penalty': 0, 'C': 1.0}), myIntAdd(5, falseBool), myFloatDiv(0.1, 0.1))",4.2,42.8,41.0,338,2,1
+338,124.549,1.0,17,"AdaBoostLearner(scSubInt(ARG0, 5), learnerType('RandForest', {'n_estimators': 100, 'class_weight': 0, 'criterion': 0}), 2, 100.0)",31.8,14.2,48.0,339,2,1
+339,5.53458,1.0,0,"AdaBoostLearner(myProd(ARG0, 1), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",10.6,47.8,29.0,340,2,1
+340,5.58434,1.0,0,"AdaBoostLearner(myArcTangentMath(ARG0, 1), ModifyLearnerList(learnerType('Trees', {'criterion': 0, 'splitter': 0}), [1, -1]), 5, myFloatDiv(100.0, myIntToFloat(4)))",36.4,19.2,20.0,341,2,1
+341,5.53213,1.0,0,"AdaBoostLearner(myProd(ARG0, 0), ModifyLearnerFloat(learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), 0.01), 2, ifThenFloat(trueBool, 100.0))",109.8,0.0,29.0,342,2,1
+342,5.40266,1.0,0,"AdaBoostLearner(ARG0, ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntSub(255, myIntSub(4, 2)), 1.0)",3.8,46.8,55.0,343,2,1
+343,185.679,1.0,0,"AdaBoostLearner(myProd(ARG0, 2), ModifyLearnerFloat(learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), 0.01), myIntAdd(passInt(passBool(falseBool)), falseBool), myFloatDiv(0.1, 0.1))",13.0,18.4,36.0,344,2,1
+344,131.915,1.0,16,"AdaBoostLearner(myGaussian(ARG0, 100.0, 0), learnerType('SVM', {'C': 1.0, 'kernel': 0}), myIntSub(255, 2), 1.3850572426509853)",8.8,37.6,53.0,345,2,1
+345,118.984,1.0,0,"AdaBoostLearner(ARG0, learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), myIntAdd(255, 2), 0.01)",12.2,19.4,46.0,346,2,1
+346,5.39663,1.0,17,"myPlanckTaper(AdaBoostLearner(ARG0, ModifyLearnerInt(learnerType('LogR', {'penalty': 0, 'C': 1.0}), falseBool, 5), passTriState(1), myIntToFloat(9)), passFloat(myFloatAdd(myFloatAdd(100.0, 10.0), 0.1)), passTriState(0))",6.6,48.4,38.0,347,2,1
+347,5.40078,1.0,17,"AdaBoostLearner(scDivInt(ARG0, 10), ModifyLearnerList(learnerType('LogR', {'penalty': 0, 'C': 1.0}), [1, 13]), myIntAdd(10, falseBool), myFloatDiv(0.1, 0.1))",10.8,26.6,32.0,348,2,1
+348,178.116,1.0,17,"BaggedLearner(ARG0, learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}))",9.8,20.8,38.0,349,2,1
+349,137.659,1.0,17,"AdaBoostLearner(ARG0, learnerType('LogR', {'penalty': 0, 'C': 1.0}), 255, 0.01)",4.0,45.6,47.0,350,2,1
+350,114.677,1.0,17,"myPlanckTaper(AdaBoostLearner(myGaussian(ARG0, 4.277402487995257, 0), ModifyLearnerInt(learnerType('Bayes', None), falseBool, 5), passTriState(1), myIntToFloat(9)), passFloat(myFloatAdd(100.0, 0.1)), passTriState(1))",18.8,19.0,32.0,351,2,1
+351,5.45093,1.0,0,"AdaBoostLearner(ARG0, ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, trueBool), 0.1)",11.2,47.6,24.0,352,2,1
+352,132.044,1.0,1,"AdaBoostLearner(ARG0, learnerType('LogR', {'penalty': 0, 'C': 1.0}), 2, 1.0)",3.8,47.2,44.0,353,2,1
+353,127.198,1.0,0,"AdaBoostLearner(myArcTangentMath(ARG0, 0), ModifyLearnerList(learnerType('Trees', {'criterion': 0, 'splitter': 0}), [1, -1]), 5, myFloatDiv(100.0, 10.0))",15.4,26.0,25.0,354,2,2
+354,5.51192,1.0,0,"BaggedLearner(ARG0, learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}))",15.4,20.6,26.0,355,2,2
+355,101.663,1.0,0,"AdaBoostLearner(ARG0, learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), myIntSub(255, 2), 1.0)",16.8,17.4,49.0,356,2,2
+356,111.204,1.0,17,"AdaBoostLearner(scDivInt(ARG0, 10), ModifyLearnerFloat(learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), 0.01), myIntAdd(128, falseBool), myFloatDiv(0.1, 0.1))",16.6,18.2,44.0,357,2,2
+357,133.831,1.0,16,"AdaBoostLearner(ARG0, learnerType('Bayes', None), 2, 3.1341033733288803)",94.6,14.0,42.0,358,2,2
+358,135.235,1.0,17,"AdaBoostLearner(scDivInt(ARG0, 1), ModifyLearnerList(ModifyLearnerFloat(learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), 0.01), [-4, 2]), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",10.0,23.0,35.0,359,2,2
+359,141.031,1.0,2,"BaggedLearner(ARG0, learnerType('RandForest', {'n_estimators': 100, 'class_weight': 0, 'criterion': 0}))",13.4,20.0,27.0,360,2,2
+360,5.45473,1.0,0,"AdaBoostLearner(myProd(ARG0, 1), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), ifThenFloat(trueBool, 100.0))",0.4,67.4,31.0,361,2,2
+361,5.49386,1.0,0,"AdaBoostLearner(scDivInt(ARG0, 10), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(10, falseBool), myFloatDiv(0.1, 0.1))",9.8,48.0,34.0,362,2,2
+362,130.124,1.0,0,"SingleLearner(ARG0, learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}))",11.6,21.0,27.0,363,2,2
+363,114.95,1.0,2,"AdaBoostLearner(myProd(ARG0, 2), ModifyLearnerList(learnerType('LogR', {'penalty': 0, 'C': 1.0}), [-15, 0]), 5, myFloatDiv(0.1, 0.1))",6.0,36.2,68.0,364,2,2
+364,5.48483,1.0,0,"AdaBoostLearner(myProd(ARG0, 0), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",0.0,68.4,29.0,365,2,2
+365,160.518,1.0,1,"AdaBoostLearner(scSubInt(ARG0, 128), learnerType('RandForest', {'n_estimators': 100, 'class_weight': 0, 'criterion': 0}), 2, 100.0)",32.0,13.2,48.0,366,2,2
+366,118.701,1.0,0,"AdaBoostLearner(ARG0, learnerType('Bayes', None), 2, 1.0)",103.6,7.4,41.0,367,2,2
+367,113.019,1.0,2,"AdaBoostLearner(AdaBoostLearner(ARG0, ModifyLearnerInt(ModifyLearnerInt(learnerType('Trees', {'criterion': 0, 'splitter': 0}), 32, 2136), myAnd(equal(myFloatMult(myFloatAdd(myIntToFloat(32), ifThenElseFloat(trueBool, 1.0, 100.0)), myFloatDiv(passFloat(1.0), ifThenFloat(falseBool, 1.0))), myIntToFloat(greaterThan(passFloat(10.0), 0.1))), passBool(trueBool)), 5900), passTriState(1), myIntToFloat(9)), learnerType('Bayes', None), 2, 3.1341033733288803)",106.2,4.2,82.0,368,2,2
+368,5.40774,1.0,0,"AdaBoostLearner(ARG0, learnerType('Bayes', None), 2, 2.5846962148464545)",99.0,9.8,40.0,369,2,2
+369,127.264,1.0,16,"AdaBoostLearner(ARG0, learnerType('LogR', {'penalty': 0, 'C': 1.0}), 128, myIntToFloat(10))",86.2,12.8,49.0,370,2,2
+370,5.44071,1.0,0,"myPlanckTaper(AdaBoostLearner(ARG0, ModifyLearnerInt(learnerType('SVM', {'C': 1.0, 'kernel': 0}), falseBool, 5), passTriState(2), myIntToFloat(9)), myFloatDiv(100.0, 10.0), passTriState(1))",104.4,13.8,29.0,371,2,2
+371,5.40138,1.0,17,"AdaBoostLearner(myProd(ARG0, 1), ModifyLearnerFloat(learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), 0.01), 2, ifThenFloat(trueBool, 100.0))",106.2,8.8,29.0,372,2,2
+372,150.136,1.0,0,"BaggedLearner(randShuffle(ARG0), learnerType('RandForest', {'n_estimators': 100, 'class_weight': 0, 'criterion': 0}))",12.6,19.2,28.0,373,2,2
+373,168.034,1.0,17,"myPlanckTaper(AdaBoostLearner(myGaussian(ARG0, 100.0, 0), ModifyLearnerInt(learnerType('LogR', {'penalty': 0, 'C': 1.0}), falseBool, 100), passTriState(1), myIntToFloat(9)), passFloat(myFloatAdd(myFloatAdd(100.0, 10.0), 0.1)), passTriState(1))",6.0,49.2,35.0,374,2,2
+374,7.73544,1.0,0,"AdaBoostLearner(scDivInt(ARG0, 10), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(128, falseBool), myFloatDiv(0.1, 0.1))",3.8,50.0,31.0,375,2,2
+375,141.898,1.0,17,"AdaBoostLearner(ARG0, ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), 3, myFloatDiv(0.1, 0.1))",5.4,54.6,29.0,376,2,2
+376,5.48787,1.0,0,"AdaBoostLearner(myProd(ARG0, 2), learnerType('LogR', {'penalty': 0, 'C': 1.0}), myIntAdd(5, falseBool), myFloatDiv(0.1, 0.1))",4.2,42.8,41.0,377,2,2
+377,124.549,1.0,17,"AdaBoostLearner(scSubInt(ARG0, 5), learnerType('RandForest', {'n_estimators': 100, 'class_weight': 0, 'criterion': 0}), 2, 100.0)",31.8,14.2,48.0,378,2,2
+378,5.53458,1.0,0,"AdaBoostLearner(myProd(ARG0, 1), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",10.6,47.8,29.0,379,2,2
+379,5.58434,1.0,0,"AdaBoostLearner(myArcTangentMath(ARG0, 1), ModifyLearnerList(learnerType('Trees', {'criterion': 0, 'splitter': 0}), [1, -1]), 5, myFloatDiv(100.0, myIntToFloat(4)))",36.4,19.2,20.0,380,2,2
+380,5.53213,1.0,0,"AdaBoostLearner(myProd(ARG0, 0), ModifyLearnerFloat(learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), 0.01), 2, ifThenFloat(trueBool, 100.0))",109.8,0.0,29.0,381,2,2
+381,5.40266,1.0,0,"AdaBoostLearner(ARG0, ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntSub(255, myIntSub(4, 2)), 1.0)",3.8,46.8,55.0,382,2,2
+382,185.679,1.0,0,"AdaBoostLearner(myProd(ARG0, 2), ModifyLearnerFloat(learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), 0.01), myIntAdd(passInt(passBool(falseBool)), falseBool), myFloatDiv(0.1, 0.1))",13.0,18.4,36.0,383,2,2
+383,118.984,1.0,0,"AdaBoostLearner(ARG0, learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), myIntAdd(255, 2), 0.01)",12.2,19.4,46.0,384,2,2
+384,5.39663,1.0,17,"myPlanckTaper(AdaBoostLearner(ARG0, ModifyLearnerInt(learnerType('LogR', {'penalty': 0, 'C': 1.0}), falseBool, 5), passTriState(1), myIntToFloat(9)), passFloat(myFloatAdd(myFloatAdd(100.0, 10.0), 0.1)), passTriState(0))",6.6,48.4,38.0,385,2,2
+385,5.40078,1.0,17,"AdaBoostLearner(scDivInt(ARG0, 10), ModifyLearnerList(learnerType('LogR', {'penalty': 0, 'C': 1.0}), [1, 13]), myIntAdd(10, falseBool), myFloatDiv(0.1, 0.1))",10.8,26.6,32.0,386,2,2
+386,178.116,1.0,17,"BaggedLearner(ARG0, learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}))",9.8,20.8,38.0,387,2,2
+387,137.659,1.0,17,"AdaBoostLearner(ARG0, learnerType('LogR', {'penalty': 0, 'C': 1.0}), 255, 0.01)",4.0,45.6,47.0,388,2,2
+388,114.677,1.0,17,"myPlanckTaper(AdaBoostLearner(myGaussian(ARG0, 4.277402487995257, 0), ModifyLearnerInt(learnerType('Bayes', None), falseBool, 5), passTriState(1), myIntToFloat(9)), passFloat(myFloatAdd(100.0, 0.1)), passTriState(1))",18.8,19.0,32.0,389,2,2
+389,5.45093,1.0,0,"AdaBoostLearner(ARG0, ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, trueBool), 0.1)",11.2,47.6,24.0,390,2,2
+390,111.637,1.0,0,"AdaBoostLearner(ARG0, learnerType('LogR', {'penalty': 0, 'C': 1.0}), myIntSub(9, 2), 1.0)",8.2,30.0,51.0,391,2,2
+391,132.044,1.0,1,"AdaBoostLearner(ARG0, learnerType('LogR', {'penalty': 0, 'C': 1.0}), 2, 1.0)",3.8,47.2,44.0,392,2,2
+392,159.668,1.0,0,"AdaBoostLearner(ARG0, learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), 32, passFloat(0.01))",11.6,20.4,43.0,393,2,2
+393,127.198,1.0,0,"AdaBoostLearner(myArcTangentMath(ARG0, 0), ModifyLearnerList(learnerType('Trees', {'criterion': 0, 'splitter': 0}), [1, -1]), 5, myFloatDiv(100.0, 10.0))",15.4,26.0,25.0,394,2,3
+394,5.51192,1.0,0,"BaggedLearner(ARG0, learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}))",15.4,20.6,26.0,395,2,3
+395,101.663,1.0,0,"AdaBoostLearner(ARG0, learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), myIntSub(255, 2), 1.0)",16.8,17.4,49.0,396,2,3
+396,111.204,1.0,17,"AdaBoostLearner(scDivInt(ARG0, 10), ModifyLearnerFloat(learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), 0.01), myIntAdd(128, falseBool), myFloatDiv(0.1, 0.1))",16.6,18.2,44.0,397,2,3
+397,189.779,1.0,3,"AdaBoostLearner(ARG0, learnerType('SVM', {'C': 1.0, 'kernel': 0}), myIntAdd(255, 6), 0.1)",8.6,34.2,44.0,398,2,3
+398,133.831,1.0,16,"AdaBoostLearner(ARG0, learnerType('Bayes', None), 2, 3.1341033733288803)",94.6,14.0,42.0,399,2,3
+399,135.235,1.0,17,"AdaBoostLearner(scDivInt(ARG0, 1), ModifyLearnerList(ModifyLearnerFloat(learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), 0.01), [-4, 2]), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",10.0,23.0,35.0,400,2,3
+400,141.031,1.0,2,"BaggedLearner(ARG0, learnerType('RandForest', {'n_estimators': 100, 'class_weight': 0, 'criterion': 0}))",13.4,20.0,27.0,401,2,3
+401,5.45473,1.0,0,"AdaBoostLearner(myProd(ARG0, 1), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), ifThenFloat(trueBool, 100.0))",0.4,67.4,31.0,402,2,3
+402,5.49386,1.0,0,"AdaBoostLearner(scDivInt(ARG0, 10), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(10, falseBool), myFloatDiv(0.1, 0.1))",9.8,48.0,34.0,403,2,3
+403,130.124,1.0,0,"SingleLearner(ARG0, learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}))",11.6,21.0,27.0,404,2,3
+404,114.95,1.0,2,"AdaBoostLearner(myProd(ARG0, 2), ModifyLearnerList(learnerType('LogR', {'penalty': 0, 'C': 1.0}), [-15, 0]), 5, myFloatDiv(0.1, 0.1))",6.0,36.2,68.0,405,2,3
+405,5.48483,1.0,0,"AdaBoostLearner(myProd(ARG0, 0), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",0.0,68.4,29.0,406,2,3
+406,160.518,1.0,1,"AdaBoostLearner(scSubInt(ARG0, 128), learnerType('RandForest', {'n_estimators': 100, 'class_weight': 0, 'criterion': 0}), 2, 100.0)",32.0,13.2,48.0,407,2,3
+407,118.701,1.0,0,"AdaBoostLearner(ARG0, learnerType('Bayes', None), 2, 1.0)",103.6,7.4,41.0,408,2,3
+408,113.019,1.0,2,"AdaBoostLearner(AdaBoostLearner(ARG0, ModifyLearnerInt(ModifyLearnerInt(learnerType('Trees', {'criterion': 0, 'splitter': 0}), 32, 2136), myAnd(equal(myFloatMult(myFloatAdd(myIntToFloat(32), ifThenElseFloat(trueBool, 1.0, 100.0)), myFloatDiv(passFloat(1.0), ifThenFloat(falseBool, 1.0))), myIntToFloat(greaterThan(passFloat(10.0), 0.1))), passBool(trueBool)), 5900), passTriState(1), myIntToFloat(9)), learnerType('Bayes', None), 2, 3.1341033733288803)",106.2,4.2,82.0,409,2,3
+409,5.40774,1.0,0,"AdaBoostLearner(ARG0, learnerType('Bayes', None), 2, 2.5846962148464545)",99.0,9.8,40.0,410,2,3
+410,127.264,1.0,16,"AdaBoostLearner(ARG0, learnerType('LogR', {'penalty': 0, 'C': 1.0}), 128, myIntToFloat(10))",86.2,12.8,49.0,411,2,3
+411,5.44071,1.0,0,"myPlanckTaper(AdaBoostLearner(ARG0, ModifyLearnerInt(learnerType('SVM', {'C': 1.0, 'kernel': 0}), falseBool, 5), passTriState(2), myIntToFloat(9)), myFloatDiv(100.0, 10.0), passTriState(1))",104.4,13.8,29.0,412,2,3
+412,5.40138,1.0,17,"AdaBoostLearner(myProd(ARG0, 1), ModifyLearnerFloat(learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), 0.01), 2, ifThenFloat(trueBool, 100.0))",106.2,8.8,29.0,413,2,3
+413,154.909,1.0,2,"AdaBoostLearner(myProd(ARG0, 2), ModifyLearnerFloat(learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), 0.01), myIntAdd(passInt(passBool(falseBool)), falseBool), myFloatDiv(0.1, 0.1))",17.0,18.2,37.0,414,2,3
+414,150.136,1.0,0,"BaggedLearner(randShuffle(ARG0), learnerType('RandForest', {'n_estimators': 100, 'class_weight': 0, 'criterion': 0}))",12.6,19.2,28.0,415,2,3
+415,168.034,1.0,17,"myPlanckTaper(AdaBoostLearner(myGaussian(ARG0, 100.0, 0), ModifyLearnerInt(learnerType('LogR', {'penalty': 0, 'C': 1.0}), falseBool, 100), passTriState(1), myIntToFloat(9)), passFloat(myFloatAdd(myFloatAdd(100.0, 10.0), 0.1)), passTriState(1))",6.0,49.2,35.0,416,2,3
+416,7.73544,1.0,0,"AdaBoostLearner(scDivInt(ARG0, 10), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(128, falseBool), myFloatDiv(0.1, 0.1))",3.8,50.0,31.0,417,2,3
+417,141.898,1.0,17,"AdaBoostLearner(ARG0, ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), 3, myFloatDiv(0.1, 0.1))",5.4,54.6,29.0,418,2,3
+418,5.48787,1.0,0,"AdaBoostLearner(myProd(ARG0, 2), learnerType('LogR', {'penalty': 0, 'C': 1.0}), myIntAdd(5, falseBool), myFloatDiv(0.1, 0.1))",4.2,42.8,41.0,419,2,3
+419,174.092,1.0,3,"AdaBoostLearner(myArcTangentMath(ARG0, 0), ModifyLearnerList(learnerType('Bayes', None), [1, -1]), 10, myFloatDiv(myIntToFloat(64), 10.0))",83.4,18.8,34.0,420,2,3
+420,124.549,1.0,17,"AdaBoostLearner(scSubInt(ARG0, 5), learnerType('RandForest', {'n_estimators': 100, 'class_weight': 0, 'criterion': 0}), 2, 100.0)",31.8,14.2,48.0,421,2,3
+421,5.53458,1.0,0,"AdaBoostLearner(myProd(ARG0, 1), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",10.6,47.8,29.0,422,2,3
+422,5.58434,1.0,0,"AdaBoostLearner(myArcTangentMath(ARG0, 1), ModifyLearnerList(learnerType('Trees', {'criterion': 0, 'splitter': 0}), [1, -1]), 5, myFloatDiv(100.0, myIntToFloat(4)))",36.4,19.2,20.0,423,2,3
+423,5.53213,1.0,0,"AdaBoostLearner(myProd(ARG0, 0), ModifyLearnerFloat(learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), 0.01), 2, ifThenFloat(trueBool, 100.0))",109.8,0.0,29.0,424,2,3
+424,5.40266,1.0,0,"AdaBoostLearner(ARG0, ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntSub(255, myIntSub(4, 2)), 1.0)",3.8,46.8,55.0,425,2,3
+425,185.679,1.0,0,"AdaBoostLearner(myProd(ARG0, 2), ModifyLearnerFloat(learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), 0.01), myIntAdd(passInt(passBool(falseBool)), falseBool), myFloatDiv(0.1, 0.1))",13.0,18.4,36.0,426,2,3
+426,118.984,1.0,0,"AdaBoostLearner(ARG0, learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), myIntAdd(255, 2), 0.01)",12.2,19.4,46.0,427,2,3
+427,5.39663,1.0,17,"myPlanckTaper(AdaBoostLearner(ARG0, ModifyLearnerInt(learnerType('LogR', {'penalty': 0, 'C': 1.0}), falseBool, 5), passTriState(1), myIntToFloat(9)), passFloat(myFloatAdd(myFloatAdd(100.0, 10.0), 0.1)), passTriState(0))",6.6,48.4,38.0,428,2,3
+428,5.40078,1.0,17,"AdaBoostLearner(scDivInt(ARG0, 10), ModifyLearnerList(learnerType('LogR', {'penalty': 0, 'C': 1.0}), [1, 13]), myIntAdd(10, falseBool), myFloatDiv(0.1, 0.1))",10.8,26.6,32.0,429,2,3
+429,178.816,1.0,2,"myPlanckTaper(AdaBoostLearner(myGaussian(ARG0, 100.0, 0), ModifyLearnerInt(learnerType('Bayes', None), falseBool, 5), passTriState(1), 0.1), passFloat(100.0), passTriState(1))",18.8,19.0,29.0,430,2,3
+430,178.116,1.0,17,"BaggedLearner(ARG0, learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}))",9.8,20.8,38.0,431,2,3
+431,137.659,1.0,17,"AdaBoostLearner(ARG0, learnerType('LogR', {'penalty': 0, 'C': 1.0}), 255, 0.01)",4.0,45.6,47.0,432,2,3
+432,5.45093,1.0,0,"AdaBoostLearner(ARG0, ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, trueBool), 0.1)",11.2,47.6,24.0,433,2,3
+433,111.637,1.0,0,"AdaBoostLearner(ARG0, learnerType('LogR', {'penalty': 0, 'C': 1.0}), myIntSub(9, 2), 1.0)",8.2,30.0,51.0,434,2,3
+434,132.044,1.0,1,"AdaBoostLearner(ARG0, learnerType('LogR', {'penalty': 0, 'C': 1.0}), 2, 1.0)",3.8,47.2,44.0,435,2,3
+435,159.668,1.0,0,"AdaBoostLearner(ARG0, learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), 32, passFloat(0.01))",11.6,20.4,43.0,436,2,3
+436,127.198,1.0,0,"AdaBoostLearner(myArcTangentMath(ARG0, 0), ModifyLearnerList(learnerType('Trees', {'criterion': 0, 'splitter': 0}), [1, -1]), 5, myFloatDiv(100.0, 10.0))",15.4,26.0,25.0,437,2,4
+437,5.51192,1.0,0,"BaggedLearner(ARG0, learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}))",15.4,20.6,26.0,438,2,4
+438,101.663,1.0,0,"AdaBoostLearner(ARG0, learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), myIntSub(255, 2), 1.0)",16.8,17.4,49.0,439,2,4
+439,111.204,1.0,17,"AdaBoostLearner(scDivInt(ARG0, 10), ModifyLearnerFloat(learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), 0.01), myIntAdd(128, falseBool), myFloatDiv(0.1, 0.1))",16.6,18.2,44.0,440,2,4
+440,189.779,1.0,3,"AdaBoostLearner(ARG0, learnerType('SVM', {'C': 1.0, 'kernel': 0}), myIntAdd(255, 6), 0.1)",8.6,34.2,44.0,441,2,4
+441,133.831,1.0,16,"AdaBoostLearner(ARG0, learnerType('Bayes', None), 2, 3.1341033733288803)",94.6,14.0,42.0,442,2,4
+442,135.235,1.0,17,"AdaBoostLearner(scDivInt(ARG0, 1), ModifyLearnerList(ModifyLearnerFloat(learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), 0.01), [-4, 2]), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",10.0,23.0,35.0,443,2,4
+443,141.031,1.0,2,"BaggedLearner(ARG0, learnerType('RandForest', {'n_estimators': 100, 'class_weight': 0, 'criterion': 0}))",13.4,20.0,27.0,444,2,4
+444,138.692,1.0,4,"AdaBoostLearner(ARG0, ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), 255, 1.0)",3.8,45.6,51.0,445,2,4
+445,5.45473,1.0,0,"AdaBoostLearner(myProd(ARG0, 1), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), ifThenFloat(trueBool, 100.0))",0.4,67.4,31.0,446,2,4
+446,5.49386,1.0,0,"AdaBoostLearner(scDivInt(ARG0, 10), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(10, falseBool), myFloatDiv(0.1, 0.1))",9.8,48.0,34.0,447,2,4
+447,130.124,1.0,0,"SingleLearner(ARG0, learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}))",11.6,21.0,27.0,448,2,4
+448,114.95,1.0,2,"AdaBoostLearner(myProd(ARG0, 2), ModifyLearnerList(learnerType('LogR', {'penalty': 0, 'C': 1.0}), [-15, 0]), 5, myFloatDiv(0.1, 0.1))",6.0,36.2,68.0,449,2,4
+449,5.48483,1.0,0,"AdaBoostLearner(myProd(ARG0, 0), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",0.0,68.4,29.0,450,2,4
+450,160.518,1.0,1,"AdaBoostLearner(scSubInt(ARG0, 128), learnerType('RandForest', {'n_estimators': 100, 'class_weight': 0, 'criterion': 0}), 2, 100.0)",32.0,13.2,48.0,451,2,4
+451,165.878,1.0,4,"AdaBoostLearner(ARG0, learnerType('LogR', {'penalty': 0, 'C': 1.0}), myIntAdd(255, 2), 0.01)",4.0,45.4,43.0,452,2,4
+452,118.701,1.0,0,"AdaBoostLearner(ARG0, learnerType('Bayes', None), 2, 1.0)",103.6,7.4,41.0,453,2,4
+453,7.5409,1.0,4,"AdaBoostLearner(ARG0, ModifyLearnerFloat(learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), ifThenFloat(trueBool, 0.01)), myIntAdd(3, trueBool), myFloatDiv(0.1, 0.1))",10.6,22.6,35.0,454,2,4
+454,113.019,1.0,2,"AdaBoostLearner(AdaBoostLearner(ARG0, ModifyLearnerInt(ModifyLearnerInt(learnerType('Trees', {'criterion': 0, 'splitter': 0}), 32, 2136), myAnd(equal(myFloatMult(myFloatAdd(myIntToFloat(32), ifThenElseFloat(trueBool, 1.0, 100.0)), myFloatDiv(passFloat(1.0), ifThenFloat(falseBool, 1.0))), myIntToFloat(greaterThan(passFloat(10.0), 0.1))), passBool(trueBool)), 5900), passTriState(1), myIntToFloat(9)), learnerType('Bayes', None), 2, 3.1341033733288803)",106.2,4.2,82.0,455,2,4
+455,5.40774,1.0,0,"AdaBoostLearner(ARG0, learnerType('Bayes', None), 2, 2.5846962148464545)",99.0,9.8,40.0,456,2,4
+456,127.264,1.0,16,"AdaBoostLearner(ARG0, learnerType('LogR', {'penalty': 0, 'C': 1.0}), 128, myIntToFloat(10))",86.2,12.8,49.0,457,2,4
+457,5.44071,1.0,0,"myPlanckTaper(AdaBoostLearner(ARG0, ModifyLearnerInt(learnerType('SVM', {'C': 1.0, 'kernel': 0}), falseBool, 5), passTriState(2), myIntToFloat(9)), myFloatDiv(100.0, 10.0), passTriState(1))",104.4,13.8,29.0,458,2,4
+458,5.40138,1.0,17,"AdaBoostLearner(myProd(ARG0, 1), ModifyLearnerFloat(learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), 0.01), 2, ifThenFloat(trueBool, 100.0))",106.2,8.8,29.0,459,2,4
+459,154.909,1.0,2,"AdaBoostLearner(myProd(ARG0, 2), ModifyLearnerFloat(learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), 0.01), myIntAdd(passInt(passBool(falseBool)), falseBool), myFloatDiv(0.1, 0.1))",17.0,18.2,37.0,460,2,4
+460,150.136,1.0,0,"BaggedLearner(randShuffle(ARG0), learnerType('RandForest', {'n_estimators': 100, 'class_weight': 0, 'criterion': 0}))",12.6,19.2,28.0,461,2,4
+461,168.034,1.0,17,"myPlanckTaper(AdaBoostLearner(myGaussian(ARG0, 100.0, 0), ModifyLearnerInt(learnerType('LogR', {'penalty': 0, 'C': 1.0}), falseBool, 100), passTriState(1), myIntToFloat(9)), passFloat(myFloatAdd(myFloatAdd(100.0, 10.0), 0.1)), passTriState(1))",6.0,49.2,35.0,462,2,4
+462,7.73544,1.0,0,"AdaBoostLearner(scDivInt(ARG0, 10), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(128, falseBool), myFloatDiv(0.1, 0.1))",3.8,50.0,31.0,463,2,4
+463,141.898,1.0,17,"AdaBoostLearner(ARG0, ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), 3, myFloatDiv(0.1, 0.1))",5.4,54.6,29.0,464,2,4
+464,5.48787,1.0,0,"AdaBoostLearner(myProd(ARG0, 2), learnerType('LogR', {'penalty': 0, 'C': 1.0}), myIntAdd(5, falseBool), myFloatDiv(0.1, 0.1))",4.2,42.8,41.0,465,2,4
+465,174.092,1.0,3,"AdaBoostLearner(myArcTangentMath(ARG0, 0), ModifyLearnerList(learnerType('Bayes', None), [1, -1]), 10, myFloatDiv(myIntToFloat(64), 10.0))",83.4,18.8,34.0,466,2,4
+466,124.549,1.0,17,"AdaBoostLearner(scSubInt(ARG0, 5), learnerType('RandForest', {'n_estimators': 100, 'class_weight': 0, 'criterion': 0}), 2, 100.0)",31.8,14.2,48.0,467,2,4
+467,5.53458,1.0,0,"AdaBoostLearner(myProd(ARG0, 1), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",10.6,47.8,29.0,468,2,4
+468,5.58434,1.0,0,"AdaBoostLearner(myArcTangentMath(ARG0, 1), ModifyLearnerList(learnerType('Trees', {'criterion': 0, 'splitter': 0}), [1, -1]), 5, myFloatDiv(100.0, myIntToFloat(4)))",36.4,19.2,20.0,469,2,4
+469,5.53213,1.0,0,"AdaBoostLearner(myProd(ARG0, 0), ModifyLearnerFloat(learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), 0.01), 2, ifThenFloat(trueBool, 100.0))",109.8,0.0,29.0,470,2,4
+470,185.679,1.0,0,"AdaBoostLearner(myProd(ARG0, 2), ModifyLearnerFloat(learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), 0.01), myIntAdd(passInt(passBool(falseBool)), falseBool), myFloatDiv(0.1, 0.1))",13.0,18.4,36.0,471,2,4
+471,132.315,1.0,4,"AdaBoostLearner(scDivInt(myProd(ARG0, passTriState(1)), 1), ModifyLearnerList(ModifyLearnerFloat(learnerType('SVM', {'C': 1.0, 'kernel': 0}), 0.01), [-15, 0]), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",5.6,47.0,38.0,472,2,4
+472,118.984,1.0,0,"AdaBoostLearner(ARG0, learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), myIntAdd(255, 2), 0.01)",12.2,19.4,46.0,473,2,4
+473,5.40078,1.0,17,"AdaBoostLearner(scDivInt(ARG0, 10), ModifyLearnerList(learnerType('LogR', {'penalty': 0, 'C': 1.0}), [1, 13]), myIntAdd(10, falseBool), myFloatDiv(0.1, 0.1))",10.8,26.6,32.0,474,2,4
+474,178.816,1.0,2,"myPlanckTaper(AdaBoostLearner(myGaussian(ARG0, 100.0, 0), ModifyLearnerInt(learnerType('Bayes', None), falseBool, 5), passTriState(1), 0.1), passFloat(100.0), passTriState(1))",18.8,19.0,29.0,475,2,4
+475,178.116,1.0,17,"BaggedLearner(ARG0, learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}))",9.8,20.8,38.0,476,2,4
+476,5.45093,1.0,0,"AdaBoostLearner(ARG0, ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, trueBool), 0.1)",11.2,47.6,24.0,477,2,4
+477,111.637,1.0,0,"AdaBoostLearner(ARG0, learnerType('LogR', {'penalty': 0, 'C': 1.0}), myIntSub(9, 2), 1.0)",8.2,30.0,51.0,478,2,4
+478,132.044,1.0,1,"AdaBoostLearner(ARG0, learnerType('LogR', {'penalty': 0, 'C': 1.0}), 2, 1.0)",3.8,47.2,44.0,479,2,4
+479,159.668,1.0,0,"AdaBoostLearner(ARG0, learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), 32, passFloat(0.01))",11.6,20.4,43.0,480,2,4
+480,127.198,1.0,0,"AdaBoostLearner(myArcTangentMath(ARG0, 0), ModifyLearnerList(learnerType('Trees', {'criterion': 0, 'splitter': 0}), [1, -1]), 5, myFloatDiv(100.0, 10.0))",15.4,26.0,25.0,481,2,5
+481,5.51192,1.0,0,"BaggedLearner(ARG0, learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}))",15.4,20.6,26.0,482,2,5
+482,6.79071,1.0,5,"myPlanckTaper(AdaBoostLearner(myGaussian(ARG0, 100.0, 1), ModifyLearnerInt(learnerType('Bayes', None), falseBool, 5), passTriState(0), myIntToFloat(2)), passFloat(myFloatAdd(ifThenElseFloat(falseBool, 100.0, -4.200644713383612), 0.1)), passTriState(1))",102.2,3.0,50.0,483,2,5
+483,101.663,1.0,0,"AdaBoostLearner(ARG0, learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), myIntSub(255, 2), 1.0)",16.8,17.4,49.0,484,2,5
+484,7.15376,1.0,0,"AdaBoostLearner(ARG0, ModifyLearnerList(learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), [-12, -12]), 42, 0.615788985864941)",16.6,18.4,28.0,485,2,5
+485,111.204,1.0,17,"AdaBoostLearner(scDivInt(ARG0, 10), ModifyLearnerFloat(learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), 0.01), myIntAdd(128, falseBool), myFloatDiv(0.1, 0.1))",16.6,18.2,44.0,486,2,5
+486,189.779,1.0,3,"AdaBoostLearner(ARG0, learnerType('SVM', {'C': 1.0, 'kernel': 0}), myIntAdd(255, 6), 0.1)",8.6,34.2,44.0,487,2,5
+487,133.831,1.0,16,"AdaBoostLearner(ARG0, learnerType('Bayes', None), 2, 3.1341033733288803)",94.6,14.0,42.0,488,2,5
+488,135.235,1.0,17,"AdaBoostLearner(scDivInt(ARG0, 1), ModifyLearnerList(ModifyLearnerFloat(learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), 0.01), [-4, 2]), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",10.0,23.0,35.0,489,2,5
+489,141.031,1.0,2,"BaggedLearner(ARG0, learnerType('RandForest', {'n_estimators': 100, 'class_weight': 0, 'criterion': 0}))",13.4,20.0,27.0,490,2,5
+490,138.692,1.0,4,"AdaBoostLearner(ARG0, ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), 255, 1.0)",3.8,45.6,51.0,491,2,5
+491,5.45473,1.0,0,"AdaBoostLearner(myProd(ARG0, 1), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), ifThenFloat(trueBool, 100.0))",0.4,67.4,31.0,492,2,5
+492,5.49386,1.0,0,"AdaBoostLearner(scDivInt(ARG0, 10), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(10, falseBool), myFloatDiv(0.1, 0.1))",9.8,48.0,34.0,493,2,5
+493,130.124,1.0,0,"SingleLearner(ARG0, learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}))",11.6,21.0,27.0,494,2,5
+494,5.48483,1.0,0,"AdaBoostLearner(myProd(ARG0, 0), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",0.0,68.4,29.0,495,2,5
+495,160.518,1.0,1,"AdaBoostLearner(scSubInt(ARG0, 128), learnerType('RandForest', {'n_estimators': 100, 'class_weight': 0, 'criterion': 0}), 2, 100.0)",32.0,13.2,48.0,496,2,5
+496,6.97504,1.0,5,"AdaBoostLearner(myProd(ARG0, 2), ModifyLearnerList(learnerType('LogR', {'penalty': 0, 'C': 1.0}), myListAppend(myListAppend([-3, -14], [-1, -14]), passList([0, 15]))), 5, myFloatDiv(0.1, 0.1))",6.0,36.2,38.0,497,2,5
+497,165.878,1.0,4,"AdaBoostLearner(ARG0, learnerType('LogR', {'penalty': 0, 'C': 1.0}), myIntAdd(255, 2), 0.01)",4.0,45.4,43.0,498,2,5
+498,118.701,1.0,0,"AdaBoostLearner(ARG0, learnerType('Bayes', None), 2, 1.0)",103.6,7.4,41.0,499,2,5
+499,7.5409,1.0,4,"AdaBoostLearner(ARG0, ModifyLearnerFloat(learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), ifThenFloat(trueBool, 0.01)), myIntAdd(3, trueBool), myFloatDiv(0.1, 0.1))",10.6,22.6,35.0,500,2,5
+500,5.40774,1.0,0,"AdaBoostLearner(ARG0, learnerType('Bayes', None), 2, 2.5846962148464545)",99.0,9.8,40.0,501,2,5
+501,127.264,1.0,16,"AdaBoostLearner(ARG0, learnerType('LogR', {'penalty': 0, 'C': 1.0}), 128, myIntToFloat(10))",86.2,12.8,49.0,502,2,5
+502,5.44071,1.0,0,"myPlanckTaper(AdaBoostLearner(ARG0, ModifyLearnerInt(learnerType('SVM', {'C': 1.0, 'kernel': 0}), falseBool, 5), passTriState(2), myIntToFloat(9)), myFloatDiv(100.0, 10.0), passTriState(1))",104.4,13.8,29.0,503,2,5
+503,5.40138,1.0,17,"AdaBoostLearner(myProd(ARG0, 1), ModifyLearnerFloat(learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), 0.01), 2, ifThenFloat(trueBool, 100.0))",106.2,8.8,29.0,504,2,5
+504,154.909,1.0,2,"AdaBoostLearner(myProd(ARG0, 2), ModifyLearnerFloat(learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), 0.01), myIntAdd(passInt(passBool(falseBool)), falseBool), myFloatDiv(0.1, 0.1))",17.0,18.2,37.0,505,2,5
+505,150.136,1.0,0,"BaggedLearner(randShuffle(ARG0), learnerType('RandForest', {'n_estimators': 100, 'class_weight': 0, 'criterion': 0}))",12.6,19.2,28.0,506,2,5
+506,168.034,1.0,17,"myPlanckTaper(AdaBoostLearner(myGaussian(ARG0, 100.0, 0), ModifyLearnerInt(learnerType('LogR', {'penalty': 0, 'C': 1.0}), falseBool, 100), passTriState(1), myIntToFloat(9)), passFloat(myFloatAdd(myFloatAdd(100.0, 10.0), 0.1)), passTriState(1))",6.0,49.2,35.0,507,2,5
+507,8.00737,1.0,3,"AdaBoostLearner(ARG0, ModifyLearnerFloat(learnerType('RandForest', {'n_estimators': 100, 'class_weight': 0, 'criterion': 0}), 0.01), myIntAdd(myAnd(falseBool, trueBool), lessThanOrEqual(1.0, 10.0)), ifThenFloat(trueBool, 100.0))",15.2,18.6,34.0,508,2,5
+508,7.73544,1.0,0,"AdaBoostLearner(scDivInt(ARG0, 10), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(128, falseBool), myFloatDiv(0.1, 0.1))",3.8,50.0,31.0,509,2,5
+509,141.898,1.0,17,"AdaBoostLearner(ARG0, ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), 3, myFloatDiv(0.1, 0.1))",5.4,54.6,29.0,510,2,5
+510,5.48787,1.0,0,"AdaBoostLearner(myProd(ARG0, 2), learnerType('LogR', {'penalty': 0, 'C': 1.0}), myIntAdd(5, falseBool), myFloatDiv(0.1, 0.1))",4.2,42.8,41.0,511,2,5
+511,8.154,1.0,4,"AdaBoostLearner(ARG0, learnerType('Bayes', None), myIntSub(7, 2), myIntToFloat(9))",80.2,16.6,39.0,512,2,5
+512,124.549,1.0,17,"AdaBoostLearner(scSubInt(ARG0, 5), learnerType('RandForest', {'n_estimators': 100, 'class_weight': 0, 'criterion': 0}), 2, 100.0)",31.8,14.2,48.0,513,2,5
+513,7.12534,1.0,5,"myPlanckTaper(AdaBoostLearner(myGaussian(ARG0, 4.277402487995257, 0), ModifyLearnerInt(learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), falseBool, 5), passTriState(1), myIntToFloat(9)), passFloat(myFloatAdd(100.0, passFloat(0.01))), passTriState(1))",11.0,21.0,36.0,514,2,5
+514,5.53458,1.0,0,"AdaBoostLearner(myProd(ARG0, 1), ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",10.6,47.8,29.0,515,2,5
+515,5.58434,1.0,0,"AdaBoostLearner(myArcTangentMath(ARG0, 1), ModifyLearnerList(learnerType('Trees', {'criterion': 0, 'splitter': 0}), [1, -1]), 5, myFloatDiv(100.0, myIntToFloat(4)))",36.4,19.2,20.0,516,2,5
+516,5.53213,1.0,0,"AdaBoostLearner(myProd(ARG0, 0), ModifyLearnerFloat(learnerType('ExtraTrees', {'n_estimators': 100, 'max_depth': 6, 'criterion': 0}), 0.01), 2, ifThenFloat(trueBool, 100.0))",109.8,0.0,29.0,517,2,5
+517,185.679,1.0,0,"AdaBoostLearner(myProd(ARG0, 2), ModifyLearnerFloat(learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), 0.01), myIntAdd(passInt(passBool(falseBool)), falseBool), myFloatDiv(0.1, 0.1))",13.0,18.4,36.0,518,2,5
+518,132.315,1.0,4,"AdaBoostLearner(scDivInt(myProd(ARG0, passTriState(1)), 1), ModifyLearnerList(ModifyLearnerFloat(learnerType('SVM', {'C': 1.0, 'kernel': 0}), 0.01), [-15, 0]), myIntAdd(3, falseBool), myFloatDiv(0.1, 0.1))",5.6,47.0,38.0,519,2,5
+519,118.984,1.0,0,"AdaBoostLearner(ARG0, learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), myIntAdd(255, 2), 0.01)",12.2,19.4,46.0,520,2,5
+520,5.40078,1.0,17,"AdaBoostLearner(scDivInt(ARG0, 10), ModifyLearnerList(learnerType('LogR', {'penalty': 0, 'C': 1.0}), [1, 13]), myIntAdd(10, falseBool), myFloatDiv(0.1, 0.1))",10.8,26.6,32.0,521,2,5
+521,178.116,1.0,17,"BaggedLearner(ARG0, learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}))",9.8,20.8,38.0,522,2,5
+522,7.1499,1.0,4,"AdaBoostLearner(ARG0, ModifyLearnerInt(ModifyLearnerList(learnerType('LogR', {'penalty': 0, 'C': 1.0}), [-13, 10]), myIntMult(0, falseBool), myOr(falseBool, trueBool)), 2, myFloatDiv(0.1, 0.1))",3.8,47.2,41.0,523,2,5
+523,5.45093,1.0,0,"AdaBoostLearner(ARG0, ModifyLearnerFloat(learnerType('LogR', {'penalty': 0, 'C': 1.0}), 0.01), myIntAdd(3, trueBool), 0.1)",11.2,47.6,24.0,524,2,5
+524,111.637,1.0,0,"AdaBoostLearner(ARG0, learnerType('LogR', {'penalty': 0, 'C': 1.0}), myIntSub(9, 2), 1.0)",8.2,30.0,51.0,525,2,5
+525,159.668,1.0,0,"AdaBoostLearner(ARG0, learnerType('Boosting', {'learning_rate': 0.1, 'n_estimators': 100, 'max_depth': 3}), 32, passFloat(0.01))",11.6,20.4,43.0,526,2,5
